@@ -1,0 +1,11 @@
+**/*.aux
+**/*.log
+**/*.nav
+**/*.out
+**/*.snm
+**/*.vrb
+**/*.synctex.gz
+**/*.synctex.gz(busy)
+**/*.toc
+**/*.class
+**/old
