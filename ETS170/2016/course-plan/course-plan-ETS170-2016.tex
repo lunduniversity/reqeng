@@ -16,6 +16,8 @@
 \usepackage{enumitem}
 \usepackage{graphicx}
 \usepackage{pdfpages}
+\usepackage{rotating}
+\usepackage{adjustbox}
 \usepackage{epstopdf}
 
 \title{\bf\sffamily\fontsize{18}{18}\selectfont{
@@ -413,7 +415,10 @@ Prepare and rehearse a short presentation.
 
 \newpage
 
-\begin{tabular}{| p{2.3cm} |p{7cm} | p{7cm} | p{7cm} |}
+
+\begin{sidewaystable}
+\begin{adjustbox}{width=1.05\textwidth}
+\begin{tabular}{| p{2.3cm} |p{5.5cm} | p{5.0cm} | p{5.7cm} |}
 \hline
 {\it Assessment area} & {\it Requirements for project grade {\bf 3}} \newline Demonstrate {\bf acceptable} ability to ... & {\it Also required for project grade {\bf 4}} \newline Demonstrate {\bf advanced} ability to ...& {\it Also required for project grade {\bf 5}} \newline Demonstrate {\bf excellent} ability to ... \\
 \hline
@@ -469,5 +474,7 @@ Prepare and rehearse a short presentation.
 \\ \hline
 
 \end{tabular}
+\end{adjustbox}
+\end{sidewaystable}
 
 \end{document}
