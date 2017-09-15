@@ -1,6 +1,6 @@
 # Vill ni få hjälp av innovativa LTH-studenter med att undersöka, konceptualisera, och testa er produktidé?
 
-## (English below)
+## (English version further down)
 
 Nu finns möjlighet att utveckla er produktidé tillsammans med en grupp studenter. Under sju veckor undersöker studenterna hur idén kan realiseras med ett mjukvarusystem, ex. som en webb, mobil, eller desktop-app, eller inbyggd IoT-lösning. Arbetet baseras på vad som efterfrågas på den tilltänkta marknaden med potentiella kunder och intressenter. Detta arbete sker i projektform inom kursen [Kravhantering](http://cs.lth.se/ets170/) på [Lunds Tekniska Högskola](http://www.lth.se/) som ges till fjärde och femteårsstudenter inom [Datateknik](http://www.lth.se/utbildning/datateknik300), [InfoCom](http://www.lth.se/utbildning/infocom) och [Industriell Ekonomi](http://www.lth.se/utbildning/industriell_ekonomi) från slutet av oktober till mitten av december.
 
@@ -31,6 +31,8 @@ I slutet av kursen kommer studenterna att presentera sina projekt då ni också 
 
 ## Frågor? Mer information?
 Kontakta Johan Linåker via mail johan.linaker@cs.lth.se eller telefon 0706 578 579.
+
+---
 
 # Do you want the help of innovative LTH-students with investigating, conceptualizing and testing your idea?
 
