@@ -38,8 +38,8 @@
 * delivery - when
 
   * road-map and strategy
-  * constraints
   * resources
+  * constraints
   * release plan
 
 # `reqtbox` - mnemonics
