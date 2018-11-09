@@ -15,7 +15,7 @@ I år kommer varje studentgrupp få arbeta på en produktidé från ett startup-
 ## Låter intressant! Hur går jag vidare? Vad händer sen?
 
 ### 1. Välj produktidé
-Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår.
+Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår. Frågor kring vad som vore en lämplig idé? Kontakta Johan Linåker via mail johan.linaker@cs.lth.se eller telefon 0706 578 579.
 
 ### 2. Skicka in din produktidé
 När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den, samt av ert startup till Johan Linåker via mail johan.linaker@cs.lth.se.
@@ -32,7 +32,7 @@ Vid första föreläsningstillfället (**23/1**) pitchar ni era idéer (ca 3min)
 Under projektets gång (**21/1-8/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
 
 ### 6. Studenterna presenterar sina resultat
-I slutet av kursen kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
+I slutet av kursen (**6/3**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
 
 ## Frågor? Mer information?
 Kontakta Johan Linåker via mail johan.linaker@cs.lth.se eller telefon 0706 578 579.
