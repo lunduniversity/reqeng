@@ -15,27 +15,27 @@ I år kommer varje studentgrupp få arbeta på en produktidé från ett startup-
 ## Låter intressant! Hur går jag vidare? Vad händer sen?
 
 ### 1. Välj produktidé
-Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår. Frågor kring vad som vore en lämplig idé? Kontakta Johan Linåker via mail johan.linaker@cs.lth.se eller telefon 0706 578 579.
+Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår. Frågor kring vad som vore en lämplig idé? Kontakta Sarah Johannesson via mail ine15sjo@student.lu.se eller telefon 070 564 65 29.
 
 ### 2. Skicka in din produktidé
-När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den, samt av ert startup till Johan Linåker via mail johan.linaker@cs.lth.se.
+När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den, samt av ert startup till Sarah Johannesson via mail ine15sjo@student.lu.se.
 
 ### 3. Utformning av projektbeskrivning
 Ni blir kontaktade av en handledare från kursen som tillsammans med er utformar en projektbeskrivning kring er produktidé som kan användas av studentgrupperna för att komma igång med deras arbete.
 
 ### 4. Pitcha idén för studenterna
-Vid första föreläsningstillfället (**21/1**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
+Vid första föreläsningstillfället (**vecka 3, datum TBA**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
 
 *Notera att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
 
 ### 5. Studenterna arbetar på idén i sina projekt
-Under projektets gång (**20/1-8/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
+Under projektets gång (**18/1-7/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
 
 ### 6. Studenterna presenterar sina resultat
-I slutet av kursen (**4/3**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
+I slutet av kursen (**vecka 9, datum TBA**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
 
 ## Frågor? Mer information?
-Kontakta Johan Linåker via mail johan.linaker@cs.lth.se eller telefon 0706 578 579.
+Kontakta Sarah Johannesson via mail ine15sjo@student.lu.se eller telefon 070 564 65 29.
 
 ---
 
@@ -52,24 +52,24 @@ This year each group of students will be working with a product idea from a star
 ## Cool! How do I proceed? What happens next?
 
 ### 1. Choose a product idea
-Your idea can either be in an early stage or already realized. In the latter case, you will receive new inputs and solution proposals, or verification that you are on the right track. Have questions regarding what would be a suitable idea? Contact Johan Linåker via mail johan.linaker@cs.lth.se or phone 0706 578 579.
+Your idea can either be in an early stage or already realized. In the latter case, you will receive new inputs and solution proposals, or verification that you are on the right track. Have questions regarding what would be a suitable idea? Contact Sarah Johannesson via mail ine15sjo@student.lu.se or phone 070 564 65 29.
 
 ### 2. Send in your idea
-When you've decided on an idea, you can send a short description of it and your startup to Johan Linåker via mail johan.linaker@cs.lth.se.
+When you've decided on an idea, you can send a short description of it and your startup to Sarah Johannesson via mail ine15sjo@student.lu.se.
 
 ### 3. Shaping a project description
 You will be contacted by a supervisor from the course who will help you in putting together a project description for your product idea, which can be used by the student groups to get started.
 
 ### 4. Pitch the idea to the students
-At the first lecture (**21/1**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
+At the first lecture (**week 3, date TBA**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
 
 *Note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
 
 ### 5. Students work on the idea in their projects
-During the time of the projects (**20/1-8/3**), you will need to be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also be able to answer questions via email.
+During the time of the projects (**18/1-7/3**), you will need to be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also be able to answer questions via email.
 
 ### 6. Students present their work
-At the end of the course there will be a big presentation (**4/3**) where you also are more than welcome to attend!
+At the end of the course there will be a big presentation (**week 9, date TBA**) where you also are more than welcome to attend!
 
 ## Questions? Wish for further information?
-Contact Johan Linåker via mail johan.linaker@cs.lth.se or phone 0706 578 579.
+Contact Sarah Johannesson via mail ine15sjo@student.lu.se or phone 070 564 65 29.
