@@ -24,7 +24,7 @@ När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den
 Ni blir kontaktade av en handledare från kursen som tillsammans med er utformar en projektbeskrivning kring er produktidé som kan användas av studentgrupperna för att komma igång med deras arbete.
 
 ### 4. Pitcha idén för studenterna
-Vid första föreläsningstillfället (**vecka 3, datum TBA**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
+Vid första föreläsningstillfället (**20/1, kl 15-17**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
 
 *Notera att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
 
@@ -32,7 +32,7 @@ Vid första föreläsningstillfället (**vecka 3, datum TBA**) pitchar ni era id
 Under projektets gång (**18/1-7/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
 
 ### 6. Studenterna presenterar sina resultat
-I slutet av kursen (**vecka 9, datum TBA**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
+I slutet av kursen (**9/3, kl 15-17**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
 
 ## Frågor? Mer information?
 Kontakta Sarah Johannesson via mail ine15sjo@student.lu.se eller telefon 070 564 65 29.
@@ -61,7 +61,7 @@ When you've decided on an idea, you can send a short description of it and your 
 You will be contacted by a supervisor from the course who will help you in putting together a project description for your product idea, which can be used by the student groups to get started.
 
 ### 4. Pitch the idea to the students
-At the first lecture (**week 3, date TBA**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
+At the first lecture (**20/1, at 3pm-5pm**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
 
 *Note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
 
@@ -69,7 +69,7 @@ At the first lecture (**week 3, date TBA**) you pitch your idea (ca 3 min) and a
 During the time of the projects (**18/1-7/3**), you will need to be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also be able to answer questions via email.
 
 ### 6. Students present their work
-At the end of the course there will be a big presentation (**week 9, date TBA**) where you also are more than welcome to attend!
+At the end of the course there will be a big presentation (**9/3, at 3pm-5pm**) where you also are more than welcome to attend!
 
 ## Questions? Wish for further information?
 Contact Sarah Johannesson via mail ine15sjo@student.lu.se or phone 070 564 65 29.
