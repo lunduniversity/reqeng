@@ -63,7 +63,7 @@ When you've decided on an idea, you can send a short description of it and your 
 You will be contacted by a supervisor from the course who will help you in putting together a project description for your product idea, which can be used by the student groups to get started.
 
 ### 4. Meeting with assigned group of students  
-At the first lecture (**19/1, at 15-17**) project groups will be formed based on the students' wishes for assignment based on a completed questionaire about which product idea they want to work with. During the second lecture (**20/1, at 15-17**), all project groups will meet their respective product owner of a product idea. It is therefore of great importance that you can attend this lecture.
+At the first lecture (**19/1, at 15-17**) project groups will be formed based on the students' wishes for assignment on the basis of a completed questionaire about which product idea they want to work with. During the second lecture (**20/1, at 15-17**), all project groups will meet their respective product owner of a product idea. It is therefore of great importance that you can attend this lecture.
 
 *Note that you will not pitch your product idea for the students this year, instead there will be a meeting with the aassigned project group during the second lecture.*
 
