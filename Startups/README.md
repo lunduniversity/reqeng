@@ -24,7 +24,7 @@ När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den
 Ni blir kontaktade av en handledare från kursen som tillsammans med er utformar en projektbeskrivning kring er produktidé som kan användas av studentgrupperna för att komma igång med deras arbete.
 
 ### 4. Personliga möten med tilldelad grupp av studenter 
-Vid första föreläsningstillfället (**19/1, kl 15-17**) kommer projektgrupper att formas utifrån studenternas önskemål om uppdrag baserat på ifylld enkät om vilken produktidé de vill arbeta med. Under andra föreläsningstillfället (**20/1, kl 15-17**) får alla projketgrupper träffa sina respektive produktägare för produktidén. Därav av stor vikt att ni kan närvara under detta föreläsningstillfälle. 
+Vid första föreläsningstillfället (**19/1, kl 15-17**) kommer projektgrupper att formas utifrån studenternas önskemål om uppdrag baserat på ifylld enkät om vilken produktidé de vill arbeta med. Under andra föreläsningstillfället (**20/1, kl 15-17**) får alla projketgrupper träffa sina respektive produktägare för produktidén. Därav är det av stor vikt att ni kan närvara under detta föreläsningstillfälle. 
 
 *Notera att ni inte kommer få möjlighet att pitcha era ideér i år, utan att det istället kommer vara personliga möten med tilldelad projketgrupp under andra föreläsningstillfället.*
 
