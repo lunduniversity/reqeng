@@ -30,11 +30,6 @@ Vid första föreläsningstillfället (**19/1, kl 15-17**) kommer projektgrupper
 
 *Notera även att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
 
-### 4. Pitcha idén för studenterna
-Vid första föreläsningstillfället (**20/1, kl 15-17**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
-
-*Notera att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
-
 ### 5. Studenterna arbetar på idén i sina projekt
 Under projektets gång (**18/1-7/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
 
@@ -73,11 +68,6 @@ At the first lecture (**19/1, at 15-17**) project groups will be formed based on
 *Note that you will not pitch your product idea for the students this year, instead there will be a meeting with the aassigned project group during the second lecture.*
 
 *Also note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
-
-### 4. Pitch the idea to the students
-At the first lecture (**20/1, at 3pm-5pm**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
-
-*Note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
 
 ### 5. Students work on the idea in their projects
 During the time of the projects (**18/1-7/3**), you will need to be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also be able to answer questions via email.
