@@ -23,6 +23,13 @@ När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den
 ### 3. Utformning av projektbeskrivning
 Ni blir kontaktade av en handledare från kursen som tillsammans med er utformar en projektbeskrivning kring er produktidé som kan användas av studentgrupperna för att komma igång med deras arbete.
 
+### 4. Personliga möten med tilldelad grupp av studenter 
+Vid första föreläsningstillfället (**19/1, kl 15-17**) kommer projektgrupper att formas utifrån studenternas önskemål om uppdrag baserat på ifylld enkät om vilken produktidé de vill arbeta med. Under andra föreläsningstillfället (**20/1, kl 15-17**) får alla projketgrupper träffa sina respektive produktägare för produktidén. Därav av stor vikt att ni kan närvara under detta föreläsningstillfälle. 
+
+*Notera att ni inte kommer få möjlighet att pitcha era ideér i år, utan att det istället kommer vara personliga möten med tilldelad projketgrupp under andra föreläsningstillfället.*
+
+*Notera även att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
+
 ### 4. Pitcha idén för studenterna
 Vid första föreläsningstillfället (**20/1, kl 15-17**) pitchar ni era idéer (ca 3min) samt svarar på studenternas frågor. Därefter väljer studentgrupperna i slumpvald ordning vilken produktidé de ska arbeta med.
 
@@ -59,6 +66,13 @@ When you've decided on an idea, you can send a short description of it and your 
 
 ### 3. Shaping a project description
 You will be contacted by a supervisor from the course who will help you in putting together a project description for your product idea, which can be used by the student groups to get started.
+
+### 4. Meeting with assigned group of students  
+At the first lecture (**19/1, at 15-17**) project groups will be formed based on the students' wishes for assignment based on a completed questionaire about which product idea they want to work with. During the second lecture (**20/1, at 15-17**), all project group will meet their respective product owner of a product idea. It is therfore of great importance that you can attend this lecture.
+
+*Note that you will not pitch your product idea for the students this year, instead there will be a meeting with the aassigned project group during the second lecture.*
+
+*Also note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
 
 ### 4. Pitch the idea to the students
 At the first lecture (**20/1, at 3pm-5pm**) you pitch your idea (ca 3 min) and answer questions from the students. The student groups will then in random order choose the idea they wish to work on.
