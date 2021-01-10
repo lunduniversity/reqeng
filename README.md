@@ -2,7 +2,7 @@
 
 This repo contains public files of the Requirements Engineering education at Lund University, Factulty of Engineering, LTH.
 
-The home page of the MSc course in Requirements engineering can be found here: http://cs.lth.se/ets170
+The home page of the MSc course in Requirements engineering can be found here: http://cs.lth.se/krav
 
 ## Contents of this repo:
 
