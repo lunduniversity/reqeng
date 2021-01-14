@@ -21,7 +21,7 @@
   * other systems
   * interfaces and protocols
 
-* intensions - why
+* intentions - why
 
   * goals
   * priorities
