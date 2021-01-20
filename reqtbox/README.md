@@ -1,4 +1,4 @@
-# `reqtbox` - the software requirements space model
+# `reqtbox` - a software requirements cheat sheet
 
 * The `reqtbox` (pronounced *reckteebox*, eller *kravboxen* på svenska) is a summary of **important areas in software requirements engineering**.
 
