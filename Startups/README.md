@@ -15,29 +15,27 @@ I år kommer varje studentgrupp få arbeta på en produktidé från ett startup-
 ## Låter intressant! Hur går jag vidare? Vad händer sen?
 
 ### 1. Välj produktidé
-Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår. Frågor kring vad som vore en lämplig idé? Kontakta Sarah Johannesson via mail ine15sjo@student.lu.se eller telefon 070 564 65 29.
+Första steget är att välja en produktidé som studenterna kan arbeta med. Er idé kan antingen vara i ett tidigt stadium eller redan vara realiserad. I det senare fallet, kan ni få nya inputs och lösningsförslag eller få verifierat att ni är på rätt spår. Frågor kring vad som vore en lämplig idé? Kontakta Elizabeth Bjarnason via mail elizabeth@cs.lth.se .
 
 ### 2. Skicka in din produktidé
-När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den, samt av ert startup till Sarah Johannesson via mail ine15sjo@student.lu.se.
+När ni har bestämt er för en idé kan ni skicka in en kort beskrivning av den, samt av ert startup till Elizabeth Bjarnason via mail elizabeth@cs.lth.se.
 
 ### 3. Utformning av projektbeskrivning
 Ni blir kontaktade av en handledare från kursen som tillsammans med er utformar en projektbeskrivning kring er produktidé som kan användas av studentgrupperna för att komma igång med deras arbete.
 
 ### 4. Personliga möten med tilldelad grupp av studenter 
-Vid första föreläsningstillfället (**19/1, kl 15-17**) kommer projektgrupper att formas utifrån studenternas önskemål om uppdrag baserat på ifylld enkät om vilken produktidé de vill arbeta med. Under andra föreläsningstillfället (**20/1, kl 15-17**) får alla projketgrupper träffa sina respektive produktägare för produktidén. Därav är det av stor vikt att ni kan närvara under detta föreläsningstillfälle. 
-
-*Notera att ni inte kommer få möjlighet att pitcha era ideér i år, utan att det istället kommer vara personliga möten med tilldelad projketgrupp under andra föreläsningstillfället.*
+Vid första föreläsningstillfället (**tis 18/1, kl 15-17, E:C**) kommer projektgrupper att formas utifrån studenternas önskemål om uppdrag baserat på ifylld enkät om vilken produktidé de vill arbeta med. Under andra föreläsningstillfället (**ons 19/1, kl 13-15, E:A**) får alla projketgrupper träffa sina respektive produktägare för produktidén. Därav är det av stor vikt att ni kan närvara under detta föreläsningstillfälle för att få detta första personliga möte. 
 
 *Notera även att eftersom antalet studenter inom kursen varierar år från år är det inte garanterat att alla produktidéer kan matchas med en studentgrupp.*
 
 ### 5. Studenterna arbetar på idén i sina projekt
-Under projektets gång (**18/1-7/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
+Under projektets gång (**19/1-6/3**) behöver ni också vara tillgängliga för att träffa studentgruppen vid 2-3 tillfällen (bestäms er emellan) samt att ni är tillgängliga via mail.
 
 ### 6. Studenterna presenterar sina resultat
-I slutet av kursen (**9/3, kl 15-17**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
+I slutet av kursen (**2/3, kl 13-15, E:C**) kommer studenterna att presentera sina projekt då ni också är väldigt välkomna!
 
 ## Frågor? Mer information?
-Kontakta Sarah Johannesson via mail ine15sjo@student.lu.se eller telefon 070 564 65 29.
+Kontakta Elizabeth Bjarnason via mail elizabeth@cs.lth.se .
 
 ---
 
@@ -54,26 +52,24 @@ This year each group of students will be working with a product idea from a star
 ## Cool! How do I proceed? What happens next?
 
 ### 1. Choose a product idea
-Your idea can either be in an early stage or already realized. In the latter case, you will receive new inputs and solution proposals, or verification that you are on the right track. Have questions regarding what would be a suitable idea? Contact Sarah Johannesson via mail ine15sjo@student.lu.se or phone 070 564 65 29.
+Your idea can either be in an early stage or already realized. In the latter case, you will receive new inputs and solution proposals, or verification that you are on the right track. Have questions regarding what would be a suitable idea? Contact Elizabeth Bjarnason via mail elizabeth@cs.lth.se .
 
 ### 2. Send in your idea
-When you've decided on an idea, you can send a short description of it and your startup to Sarah Johannesson via mail ine15sjo@student.lu.se.
+When you've decided on an idea, you can send a short description of it and your startup to Elizabeth Bjarnason via mail elizabeth@cs.lth.se .
 
 ### 3. Shaping a project description
 You will be contacted by a supervisor from the course who will help you in putting together a project description for your product idea, which can be used by the student groups to get started.
 
 ### 4. Meeting with assigned group of students  
-At the first lecture (**19/1, at 3pm-5pm**) project groups will be formed based on the students' wishes for assignment on the basis of a completed questionaire about which product idea they want to work with. During the second lecture (**20/1, at 3pm-5pm**), all project groups will meet their respective product owner of a product idea. It is therefore of great importance that you can attend this lecture.
+At the first lecture (**Tue 18/1, 3-5 pm, E:C**) project groups will be formed based on the students' wishes for assignment on the basis of a completed questionaire about which product idea they want to work with. During the second lecture (**Wed 19/1, 1-3 pm, E:A**), all project groups will meet their respective product owner of a product idea. It is therefore of great importance that you can attend this lecture since this will be your first personal meeting with your student project group.
 
-*Note that you will not pitch your product idea for the students this year, instead there will be a meeting with the aassigned project group during the second lecture.*
-
-*Also note that the number of students varies from year-to-year, why it's not guaranteed that each product idea can be matched with s student group*
+*Please note, that there is no guarantee that each product idea will be matched with a student group since the number of students varies from year-to-year*
 
 ### 5. Students work on the idea in their projects
-During the time of the projects (**18/1-7/3**), you will need to be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also be able to answer questions via email.
+During the time of the projects (**19/1-6/3**), you should be available to meet with the student groups at 2-3 occasions (which you decide amongst yourselves), and also answer questions via email.
 
 ### 6. Students present their work
-At the end of the course there will be a big presentation (**9/3, at 3pm-5pm**) where you also are more than welcome to attend!
+At the end of the course there will be a final presentation of each student project (**2/3, kl 13-15, E:C**). You are very welcome to attend these presentations!
 
 ## Questions? Wish for further information?
-Contact Sarah Johannesson via mail ine15sjo@student.lu.se or phone 070 564 65 29.
+Contact Elizabeth Bjarnason via mail elizabeth@cs.lth.se .
