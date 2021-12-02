@@ -4,22 +4,25 @@
 %\usepackage{beamerthemesplit}
 \usepackage[orientation=landscape,size=custom,width=10,height=9,scale=0.6,debug]{beamerposter} 
 
-
-\renewcommand{\vecka}{1}
-\newcommand{\veckotema}{Introduktion}
+\definecolor{BG}{rgb}{0.88, 0.88, 0.95}%{gray}{0.88}
+\setbeamercolor{background canvas}{bg=BG}
 
 %\title[Föreläsning, EDAA45 pgk, Björn Regnell, senast uppdaterad: \today]{Vecka \vecka. \veckotema}
 %\subtitle{Programmering, grundkurs}
 \title{God digitalisering? \\ {\fontsize{10}{12}\selectfont Kravhantering \& öppenkällkod för en bättre värld}}
 \author{Björn Regnell}
-%\institute{Datavetenskap, LTH, Lunds universitet}
+\institute{Professor i programvarusystem\\Datavetenskap, LTH, Lunds universitet}
 %\date{EDAA45, Lp1-2, HT \CurrentYear}
 \date{}
 
+\setbeamersize{text margin left=18pt,text margin right=12pt}
 \begin{document}
+\settowidth{\leftmargini}{\usebeamertemplate{itemize item}}
+\addtolength{\leftmargini}{-0\labelsep}
+
 
 \frame{\titlepage}
-\setnextsection{\vecka}
+%\setnextsection{\vecka}
 
 
 %\frame{\tableofcontents}
@@ -50,12 +53,23 @@
   \frame[plain]{\hspace*{#1}\includegraphics[height=#2\textheight]{#3}}
 }}
 
-\Img{-1.5cm}{1.05}{img/eniac}
+\Img{-2.1cm}{1.05}{img/eniac}
 \Img{-1.5cm}{1.1}{img/servers}
-\Img{-1.0cm}{1.1}{img/ar}
+\Img{-1.2cm}{1.05}{img/ar}
 
 
 \Subsection{Att skapa gemensam kunskap om framtiden}
+
+
+\begin{Slide}{Systemutveckling}
+\large  krav $\Rightarrow$ implementation $\Rightarrow$ drift \\~
+\end{Slide}
+
+\begin{Slide}{Systemutveckling}
+\large  krav $\Leftrightarrow$ implementation $\Leftrightarrow$ drift \\ 
+{ \vspace*{0.5em}\hspace*{0.8cm}\centering $\circlearrowright$ kontinuerlig leverans }
+\end{Slide}
+
 
 
 \begin{Slide}{\fontsize{20}{12}\selectfont Kravhantering =\\kollektivt kunskapsbyggande}
@@ -69,10 +83,10 @@
 \end{itemize}
 \end{Slide}
 
-\Subsection{Valfri kurs: ETSN15 Kravhantering 7,5p\\A-nivå, Årskurs 4\\{\small\texttt{https://cs.lth.se/krav/}}}
+\Subsection{{\small Valfri kurs i årskurs 4:}\\Kravhantering 7,5p\\{\small\texttt{https://cs.lth.se/krav}}}
 
 
-\begin{Slide}{Vad behöver vi jobba med?}
+\begin{Slide}{Vad behöver vi göra?}
 % \begin{itemize}
 % \item 
 Kravhanteringens \Emph{sammanvävda} \textbf{grunduppgifter} pågår \Alert{ständigt}: \\~
@@ -122,10 +136,10 @@ Olika \Emph{sammanvävda} \textbf{förutsättningar} utvecklas \Alert{ständigt}
 \begin{Slide}{Vilka typer av krav behövs?}
 Olika \Emph{sammanvävda} \textbf{kravmodeller} utvecklas \Alert{ständigt}: \\~
 \begin{itemize}
-\item Funktionalitet \hfill resultat
+\item Funktionalitet \hfill effekt
 \item Data  \hfill tillstånd
 \item Kvalitet \hfill nytta
-\item Testfall \hfill kriterier
+\item Testfall \hfill mätbara kriterier
 \end{itemize}
 \end{Slide}
 
@@ -135,20 +149,27 @@ Olika \Emph{sammanvävda} \textbf{kravmodeller} utvecklas \Alert{ständigt}: \\~
 \begin{itemize}
 \item Road-map \hfill strategi
 \item Resurser  \hfill mänskliga, monetära
-\item Begränsningar \hfill realism
+\item Begränsningar \hfill realism, villkor
 \item Releaser \hfill tid, rum
 \end{itemize}
 \end{Slide}
 
 
 \begin{Slide}{En checklista för ditt projekt:}
-\hspace*{-1.0cm}\includegraphics[width=1.25\textwidth]{img/reqt-box}
+\hspace*{-0.55cm}\includegraphics[width=1.1\textwidth]{img/reqt-box}
 
-{\tiny\href{https://github.com/lunduniversity/reqeng/blob/master/reqtbox/reqtbox.pdf}{https://github.com/lunduniversity/reqeng/blob/master/reqtbox/reqtbox.pdf}}
+{\noindent\tiny\href{https://github.com/lunduniversity/reqeng/blob/master/reqtbox/reqtbox.pdf}{https://github.com/lunduniversity/reqeng/blob/master/reqtbox/reqtbox.pdf}}
 \end{Slide}
 
-\Subsection{Öppen källkod är gemensam kunskap}
+\Subsection{Gemensam kunskap som öppen källkod}
+
+\begin{Slide}{Vad är öppen källkod?}
+  \begin{itemize}
+    \item  
+  \end{itemize}
+\end{Slide}
+
+
+\Subsection{\texttt{cs.lth.se/krav}}  
 
 \end{document}
-
-  
