@@ -1,0 +1,147 @@
+%!TEX encoding = UTF-8 Unicode
+\documentclass{simpleslides}
+
+%\usepackage{beamerthemesplit}
+\usepackage[orientation=landscape,size=custom,width=11,height=9,scale=0.6,debug]{beamerposter} 
+
+
+\renewcommand{\vecka}{1}
+\newcommand{\veckotema}{Introduktion}
+
+%\title[Föreläsning, EDAA45 pgk, Björn Regnell, senast uppdaterad: \today]{Vecka \vecka. \veckotema}
+%\subtitle{Programmering, grundkurs}
+\title{God digitalisering? \\ {\fontsize{10}{12}\selectfont Kravhantering \& öppenkällkod för en bättre värld}}
+\author{Björn Regnell}
+%\institute{Datavetenskap, LTH, Lunds universitet}
+%\date{EDAA45, Lp1-2, HT \CurrentYear}
+\date{}
+
+\begin{document}
+
+\frame{\titlepage}
+\setnextsection{\vecka}
+
+
+%\frame{\tableofcontents}
+
+%\section{God digitalisering?}
+
+
+\begin{Slide}{Tekniksprång}
+\begin{itemize}
+  \item Domesticering  \hfill 10000 år sedan
+  \item Mekanisering \hfill 500 år sedan
+  \item Elektrifiering \hfill 250 år sedan
+  \item Datorisering \hfill 50 år sedan
+  \item Digitalisering \hfill 25 år sedan
+  % \hfill
+  % \begin{itemize}
+  %   \item[] -- hela samhällets omvandlas från analogt till digitalt
+  %   \item[] -- sammanvävda IT-system i nästan alla verksamheter
+  %   \item[] -- sensorer och mjukvara nästan överallt
+  % \end{itemize}
+\end{itemize}
+%~\\Digitalisering = genomgripande omvandling med informationsteknik
+\end{Slide}
+
+
+\newcommand{\Img}[3]{
+{  \setbeamercolor{background canvas}{bg=black}
+  \frame[plain]{\hspace*{#1}\includegraphics[height=#2\textheight]{#3}}
+}}
+
+\Img{-1.5cm}{1.05}{img/eniac}
+\Img{-1.5cm}{1.1}{img/servers}
+\Img{-1.0cm}{1.1}{img/ar}
+
+
+\Subsection{Att skapa gemensam kunskap om framtiden}
+
+
+\begin{Slide}{Kravhantering:\\kollektivt kunskapsbyggande}
+\begin{itemize}
+\item Det räcker inte att kunna koda... 
+\pause
+\item Vi måste också tänka ut \Emph{vad} vi vill koda och avgöra om det är \Alert{rimligt} och \Alert{bra} att koda det vi vill!
+\pause 
+\item Vi skapar kunskap om framtidens system medan vi bygger dem.
+\item Många kompetenser behövs: vi bygger vidare på varandras kunskaper.
+\end{itemize}
+\end{Slide}
+
+\Subsection{Valfri kurs: ETSN15 Kravhantering 7,5p\\A-nivå, Årskurs 4\\{\small\texttt{https://cs.lth.se/krav/}}}
+
+
+\begin{Slide}{Vad behöver vi jobba med?}
+% \begin{itemize}
+% \item 
+Kravhanteringens \Emph{sammanvävda} \textbf{grunduppgifter} pågår \Alert{ständigt}: \\~
+\begin{itemize}
+\item Elicitering \hfill lära
+\item Specificering  \hfill modellera
+\item Validering \hfill kolla
+\item Selektering \hfill besluta
+\end{itemize}
+% \item
+% När år vi färdiga?
+%\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Vad behöver vi kunskap om?}
+Kravhanteringens \Emph{sammanvävda} \textbf{kunskapsområden} utvecklas \Alert{ständigt}: \\~
+\begin{itemize}
+\item Kontext \hfill vem
+\item Intentioner  \hfill varför
+\item Krav \hfill vad
+\item Leverans \hfill när
+\end{itemize}
+\end{Slide}
+
+
+\begin{Slide}{Hur ser sammanhanget ut?}
+Den \Emph{komplexa} \textbf{kontexten} utvecklas \Alert{ständigt}: \\~
+\begin{itemize}
+\item Intressenter \hfill användare, makthavare
+\item Vår produkt  \hfill avgränsning
+\item Andra system \hfill samverkan
+\item Gränssnitt \hfill interaktion, protokoll
+\end{itemize}
+\end{Slide}
+
+
+\begin{Slide}{Vilka är våra intentioner?}
+Olika \Emph{sammanvävda} \textbf{förutsättningar} utvecklas \Alert{ständigt}: \\~
+\begin{itemize}
+\item Mål \hfill intressebalans
+\item Prioriteter  \hfill urval
+\item Risker \hfill skada
+\item Åtagande \hfill resurser
+\end{itemize}
+\end{Slide}
+
+\begin{Slide}{Vilka olika krav ska vi uppfinna?}
+Olika \Emph{sammanvävda} \textbf{kravmodeller} utvecklas \Alert{ständigt}: \\~
+\begin{itemize}
+\item Funktionalitet \hfill resultat
+\item Data  \hfill tillstånd
+\item Kvalitet \hfill nytta
+\item Testfall \hfill kriterier
+\end{itemize}
+\end{Slide}
+
+
+\begin{Slide}{När ska vi leverera resultat?}
+Planer med \Emph{stegvisa} \textbf{resultat} revideras \Alert{ständigt}: \\~
+\begin{itemize}
+\item Road-map \hfill strategi
+\item Resurser  \hfill mänskliga, monetära
+\item Begränsningar \hfill realism
+\item Release-plan \hfill tid, rum
+\end{itemize}
+\end{Slide}
+
+
+
+\end{document}
+
+  
