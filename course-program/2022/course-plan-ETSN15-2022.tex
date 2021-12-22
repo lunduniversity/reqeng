@@ -1,0 +1,48 @@
+\documentclass[10pt,a4paper]{article}
+%\special{papersize=297mm,210mm}
+\usepackage[landscape,twocolumn,margin={2cm,2cm}]{geometry}
+\setlength{\columnsep}{16mm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{PTSans}
+\usepackage{tgtermes} %times
+\usepackage{tgheros} %helvetica
+\usepackage{sectsty} %change font on headings
+\allsectionsfont{\sffamily}
+
+\usepackage{multirow}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{epstopdf}
+
+\newif\ifteknolog
+\teknologfalse
+
+\ifteknolog
+\newcommand{\COURSECODE}{ETSN15}
+\newcommand{\COURSETITLE}{Requirements Engineering}
+\else
+\newcommand{\COURSECODE}{TFRG55}
+\newcommand{\COURSETITLE}{Requirements Engineering for Digital Systems}
+\fi
+
+\title{\bf\sffamily\fontsize{18}{18}\selectfont{
+Course Program\\
+\COURSECODE~\COURSETITLE\\
+http://cs.lth.se/krav 
+}}
+
+\author{\bf\sffamily\fontsize{12}{12}\selectfont{Björn Regnell, Elizabeth Bjarnason}}
+
+\input{course-plan-date.tex}
+
+\begin{document}
+
+\input{course-plan-body.tex}
+
+\end{document}
