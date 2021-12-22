@@ -1,0 +1,231 @@
+\documentclass[10pt,a4paper]{article}
+%\special{papersize=297mm,210mm}
+\usepackage[landscape,twocolumn,margin={2cm,2cm}]{geometry}
+\setlength{\columnsep}{16mm}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage{PTSans}
+\usepackage{tgtermes} %times
+\usepackage{tgheros} %helvetica
+\usepackage{sectsty} %change font on headings
+\allsectionsfont{\sffamily}
+
+\usepackage{multirow}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{rotating}
+\usepackage{adjustbox}
+\usepackage{epstopdf}
+
+\title{\bf\sffamily\fontsize{18}{18}\selectfont{
+Course Program\\ ETSN15 Requirements Engineering\\http://cs.lth.se/etsn15 
+}}
+\author{\bf\sffamily\fontsize{12}{12}\selectfont{Björn Regnell, Elizabeth Bjarnason}}
+\date{\bf\sffamily\fontsize{10}{10}\selectfont{Study period: 2021-VT1, Revision date: \today}}
+\begin{document}
+
+\maketitle
+\noindent 
+The objective of the course is to give basic and advanced knowledge and skills within requirements engineering for large-scale development of systems completely or partly based on software. The course gives both theoretical knowledge and practical skills in methods and techniques for requirements engineering. The course gives training in scientific paper reading.
+
+\section{Learning Objectives}
+\subsection{Knowledge and understanding}
+For a passing grade the student must
+\begin{enumerate}[noitemsep]
+\item be able to define basic concepts and principles within requirements engineering 
+\item give an account of several different types of requirements
+\item be able to describe and value several different methods and techniques for requirements engineering
+\item be able to describe and relate different sub-processes within requirements engineering
+\item be able to describe the relation between the requirements engineering process and other processes in the product lifecycle
+\item be able to describe the relation between requirements engineering and market-driven product management
+\item be able to discuss some scientific results within requirements engineering research
+\end{enumerate}
+
+
+\subsection{Skills and abilities}
+For a passing grade the student must
+\begin{enumerate}[noitemsep]
+\item be able to choose suitable requirements techniques for a given context
+\item     be able to apply several different techniques for requirements elicitation
+\item     be able to apply several different techniques for requirements specification
+\item     be able to apply several different techniques for requirements validation
+\item     be able to apply several different techniques for requirements prioritisation
+\end{enumerate}
+  The release plan defines which requirements that are implemented by the project group as mock-up designs in release R3, and which requirements are selected to be fully implemented in the imagined releases R4 and R5. 
+\subsection{Judgement and approach}
+For a passing grade the student must
+\begin{enumerate}[noitemsep]
+\item     be able to consciously select a process depending on the nature of the requirements
+\item     show a systematic and long-term approach to processes
+\item     be able to consciously see the problem in the relation between the quality of requirements and the quality of the resulting implementation
+\item     be able to adequately involve users in the requirements engineering process
+\item     be able to consciously see the problem in the relation between requirements engineering and economical aspects of product development
+\end{enumerate}
+
+\section{Contents}
+The course includes theory and practice regarding the following topics:
+\begin{enumerate}[noitemsep]
+\item Requirements on different abstraction levels and in different contexts
+
+\item Sub-processes of requirements engineering and their relation
+
+\item Specification of data requirements, e.g. using virtual windows and data models
+
+\item Specification of functional requirements, e.g. using textual feature requirements and task descriptions
+
+\item Specification of different types of non-functional requirements, e.g. usability, performance, reliability
+
+\item Different techniques for requirements elicitation
+
+\item Different techniques for requirements validation
+
+\item Different techniques for requirements prioritization
+
+\item Market-driven requirements engineering and product management
+\end{enumerate}
+
+\newpage
+
+\section{Course elements}
+\begin{description}
+\item[L: Lectures] The lectures provide an overview of the literature. They do not cover every detail, but give a high-level structure of the subject and thereby aid self-studies of the literature. Discussions are promoted.
+\item[E: Exercises] The main objective of the exercises is to support the project and prepare for the written exam through prototypical problems, by connecting theory to practice and to give opportunity to discuss details of RE techniques.
+\item[LAB: Computer lab sessions] The lab sessions illustrate computer supported
+prioritization and release planning, and demonstrates the complexity of requirements selection and scheduling. Preparations are mandatory. 
+\item[P: Project] The project is carried out in groups of 6-8 students. The project involves a number of deliverables and a final project conference where the learning outcome of each project is presented. Project groups are established during the first course week. Project assignments are established during the second course week.
+\end{description}
+
+
+
+
+\section{Assessment}
+\begin{itemize}
+\item The project is graded fail/3/4/5 based on project deliverables.
+\item Approved lab session preparations and assignments are required for passing.
+\item The written exam comprises two parts: a multple-choice part and a part with essay and practical assignments. 50 percent is required for each part for passing. The essay and practical assignment part yields max 100 points and determines the grade 3-4-5.
+\item The final course grade on the scale fail/3/4/5 is based on the written exam points (from essay and practical assignment) and the project grade using the following mapping: 
+
+\begin{tabular}{r | c c c}
+ & Project: 3 & Project: 4 & Project: 5 \\
+\hline
+ & \multicolumn{3}{c}{Exam points}    \\
+Final: 3 & $ \geq 50$ & $\geq 50$ & $\geq 50$ \\
+Final: 4 & $ \geq 75$ & $\geq 67$ & $\geq 60$ \\
+Final: 5 & $ \geq 90$ & $\geq 83$ & $\geq 75$ \\
+\hline
+\end{tabular}
+
+
+\end{itemize}
+
+
+\section{Literature}
+The course elements and the written exam will cover the following literature: 
+\begin{flushleft}
+\setlength{\tabcolsep}{0pt}
+\begin{tabular}{p{0.15\columnwidth} p{0.85\columnwidth}}
+Lau & Soren Lauesen, Software Requirements - Styles and Techniques, Addison-Wesley, ISBN 0-201-74570-4, 2002. \\
+LAB1\&2	&Preparations and instructions for Lab 1: ''Requirements Modeling'' and Lab 2: ''Requirements Prioritization and Release Planning'' \\
+MDRE &	''Market-Driven Requirements Engineering for Software Products'', Björn Regnell and Sjaak Brinkkemper, Engineering and Managing Software Requirements, Eds. A. Aurum and C. Wohlin, Springer,  ISBN 3-540-25043-3, 2005 \\
+PRIO&	''Requirements Prioritization'', Patrik Berander and Anneliese Andrews, Engineering and Managing Software Requirements, Eds. A. Aurum and C. Wohlin, Springer,  ISBN 3-540-25043-3, 2005 \\
+OSSRE & ''Understanding Requirements for Open Source Software'', Walt Scacchi, Design Requirements Engineering: A Ten-Year Perspective, Springer, pp. 467-494, 2009\\
+ RP&	''The Art and Science of Software Release Planning'', Günther Ruhe and Moshood Omolade Saliu, IEEE Software, November/December, pp. 47-53, 2005  \\
+QUPER&	Supporting Roadmapping of Quality Requirements - B Regnell, Richard Berntsson Svensson, 
+Thomas Olsson, IEEE Software 25(2) pp 42-47 March-April 2008  \\
+INSP&	''Att inspektera krav''. Sid 67-76, Framgångsrik kravhantering, andra utgåvan, Teknikföretagen, Joachim Karlsson, V040072, ISSN 1103-7008, 1998\\
+ INTDEP &	''An industrial survey of requirements interdependencies in software product release planning'', Carlshamre, P., Sandahl, K., Lindvall, M., Regnell, B., Natt och Dag, J.: Int. Conf. on Requirements Engineering (RE01), Toronto, Canada, pp. 84–91, 2001 \\
+AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao, Balasubramaniam Ramesh, IEEE Software , January/February 2008, pp.60-67, 2008 \\
+ATCR & ''A multi-case study of agile requirements engineering and the use of test cases as requirements.'', Bjarnason, E., et al., Information and Software Technology 77, 2016, pp. 61-79, 2016 \\
+\end{tabular}
+\end{flushleft}
+
+\newpage
+
+\section{Overview}
+
+\begin{flushleft}
+\small
+\begin{tabular}{c | p{0.5cm} p{4.4cm} p{2.2cm}  p{3.2cm}}
+ &  & {\it Topic} & {\it Literature} & {\it When}   \\
+\hline
+\multirow{4}{*}{{\bfseries\sffamily W1}} 
+& L1 & Introduction BR & Lau:1 & Tue 15-17\\
+& L2 & Mission lottery, Elicit, Prio BR & Lau:8, PRIO  & Wed 15-17\\
+& E1 & Requirements types, Context diagram &  Lau:1  & Thu 10-12 or 13-15\\
+\hline
+\multirow{4}{*}{{\bfseries\sffamily W2}} 
+& L3 & Specification 1, reqT BR   & Lau: 2-4  & Tue 15-17\\
+& L4 & Specification 2 BR &  & Wed 15-17 \\
+& P  & Project Mission: hand-in&  & Tue 23.59 \\
+& E2 & Elicitation  & Lau: 8  & Thu 10-12 or 13-15\\
+& Lab1 & Reqts Modelling, Prio & LAB1 &   Th 15-17, Fr 13-15 or 15-17\\
+& P & Meeting with supervisor & & \\
+\hline
+\multirow{4}{*}{{\bfseries\sffamily W3}} 
+
+& L5 & RE in the real world. Guest: Hampus Jacobsson++, Rel plan BR, & RP & Tue 15-17 \\
+& L6 & Product mgmt, Market-driven + Open Source RE, Interdependencies Guest: Johan Linåker & MDRE, OSSRE, INTDEP & Wed 15-17 \\
+& E3 & Functional requirements  & Lau:2-4  & Thu 10-12 or 13-15\\
+& P & Release R1: hand-in& & Deadline Sun 23.59 \\
+\hline
+\multirow{3}{*}{{\bfseries\sffamily W4}} 
+& P & Meeting with supervisor & & \\
+& L7 & Specification 3, Quality, Lifecycle & Lau:5-7, QUPER  & Tu 15-17\\
+& E4 & Quality requirements &  Lau:6, QUPER  &Thu 10-12 or 13-15\\
+& Lab2 & Prioritization, Release Planning & LAB2 &  Th 15-17, Fr 13-15 or 15-17\\
+\hline
+\multirow{3}{*}{{\bfseries\sffamily W5}} 
+& L8 & Validation, Inspections, \newline  Agile RE EB& 
+Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
+& E5 & Validation & Lau:9, INSP  & Thu 10-12 or 13-15\\
+& P & Release R2: hand-in and send to validation group & & Deadline Sun 23.59 \\
+& P & Validation Checklist: hand-in and to validation group & & Deadline Sun 23.59\\
+\hline
+\multirow{3}{*}{{\bfseries\sffamily W6}} 
+& P & Meeting with supervisor & & \\
+& P &  Validation Report: hand-in and to authoring group & & Deadline Thu 23.59  \\
+\hline
+\multirow{1}{*}{{\bfseries\sffamily W7}} 
+& P & Conference presentation (pdf): hand-in & & Deadline Tue 12:00  \\
+& L9 & Project conference &  & Tue 15:05-17\\
+& P & Release R3: hand-in & & Deadline Sun 23:59\\
+\hline
+\multirow{1}{*}{{\bfseries\sffamily  }} 
+& Exam & &All literature  & March 19, Fr 14-19\\
+\multirow{1}{*}{{\bfseries\sffamily Mar }}   
+&  P & \multirow{1}{*}{Course Evaluation -> BR EB, 1 per project} & & March 26, Fr 23.59\\
+\hline
+\end{tabular} 
+\end{flushleft}
+
+\section{Personnel}
+\begin{flushleft}
+	\setlength{\tabcolsep}{0pt}
+	\begin{tabular}{p{0.4\columnwidth} p{0.6\columnwidth}}
+		Bjorn.Regnell BR & Coordinator, Lectures, Exam \\
+		Elizabeth.Bjarnason EB & Coordinator, Lecture, Exercises, Exam \\
+		Johan.Linaker JL & Lecture \\
+		Sergio.Rico SR & Project and lab supervision \\
+		Sarah Johannesson SJ & Project and lab supervision \\
+		Ulrika Templing & Course Secretary \\
+		...all e-mails @cs.lth.se, except for Sarah ine15sjo@student.lu.se
+	\end{tabular}
+\end{flushleft}
+
+\section{Rooms}
+All parts of this course instance are held on-line using Zoom, Canvas and course web page.
+\begin{flushleft}
+\small
+\begin{tabular}{l | l } 
+{\it What} & {\it Where} \\
+\hline
+Lectures & Zoom, see Canvas \\
+Exercises &Zoom, see Canvas \\
+LAB& Zoom, see Canvas\\
+Exam & Canvas \\
+\end{tabular}
+\end{flushleft}
+\end{document}
