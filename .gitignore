@@ -4,6 +4,7 @@
 **/*.out
 **/*.snm
 **/*.vrb
+**/*.dvi
 **/*.synctex.gz
 **/*.synctex.gz(busy)
 **/*.toc
