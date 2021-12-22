@@ -1,32 +1,3 @@
-\documentclass[10pt,a4paper]{article}
-%\special{papersize=297mm,210mm}
-\usepackage[landscape,twocolumn,margin={2cm,2cm}]{geometry}
-\setlength{\columnsep}{16mm}
-
-\usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
-%\usepackage{PTSans}
-\usepackage{tgtermes} %times
-% \usepackage[scaled]{uarial}
-\usepackage{sectsty} %change font on headings
-\allsectionsfont{\sffamily}
-
-\usepackage{multirow}
-\usepackage[hidelinks]{hyperref}
-\usepackage{enumitem}
-\usepackage{graphicx}
-\usepackage{pdfpages}
-\usepackage{rotating}
-\usepackage{adjustbox}
-\usepackage{epstopdf}
-
-\title{\bf\sffamily\fontsize{18}{18}\selectfont{
-Project Description\\ ETSN15 Requirements Engineering\\http://cs.lth.se/krav
-}}
-\author{\bf\sffamily\fontsize{12}{12}\selectfont{Björn Regnell, Elizabeth Bjarnason, Johan Linåker}}
-\date{\bf\sffamily\fontsize{10}{10}\selectfont{Study period: 2019-VT1, Revision date: \today}}
-\begin{document}
-
 \maketitle
 \vspace{-1cm}
 
@@ -39,17 +10,18 @@ The main goals of the project from a course perspective are to:
 \item provide a group-learning setting that is focused on realistic problems.
 \end{enumerate}
 
+\section{Assignment of project team and project mission}
+By Monday of the first course week, you should give input to the team and mission
+assignment as follows:
+\begin{enumerate}[noitemsep]
+\item Read through all Project Missions from the startup companies.
+\item  Give your preferences according to given instructions.
+\item  You will be assigned a project team and a project mission based on preferences
+and availability
+\end{enumerate}
 
+\ifteknolog
 \section{Context and roles}
-% \includegraphics[scale=0.45]{fig/project-roles.eps}
-% %\includepdf[pages={1}]{fig/test2}
-% \begin{figure}[h]
-% \centering%trim = 1cm 1cm 2cm 1cm,clip,
-% \vskip-1.5cm
-% \hskip-2.9cm
-% %\includegraphics[trim = 5cm 6cm 1.5cm 10cm,clip,width=1.7cm]{fig/project-roles.pdf}
-% \vskip0.7cm
-% \end{figure}
 
 \noindent Each project team will act as an \textit{under-consultant} to a startup company and support them with requirements engineering for their product idea. The startup companies will act as \textit{product owners} and are responsible for conveying their vision of their product idea. They will provide a Project Mission upon which the project team is to develop a system model including requirements of different types at appropriate abstraction levels. The product owners will support the project team on request, but the project team is to act independently with the Requirements Engineering process throughout the project. The product owner is to be seen as a stakeholder among many during the Requirements Engineering process.
 \newline
@@ -66,21 +38,7 @@ The main goals of the project from a course perspective are to:
 \end{description}
 
 \noindent The manager roles imply management, planning, and coordination responsibilities, but managers should not do all the work: {\it all members should contribute in all parts!}
-
-\section{Project selection process}
-\noindent The project teams will select their product idea at the second lecture in course week 1.
-\newline
-
-\noindent\textbf{Preparations:}
-\begin{enumerate}[noitemsep]
-  \item Read through all Projet Missions from the startup companies.
-\end{enumerate}
-\noindent\textbf{At lecture:}
-\begin{enumerate}[noitemsep]
-  \item Each product idea will be pitched by the respective startup companies
-  \item Based on random order, the project teams will select the product idea that they wish to work with.
-  \item The project teams and startup companies exchange contact details and agree on a first meeting.
-\end{enumerate}
+\fi 
 
 \section{General project rules}
 \begin{enumerate}[noitemsep]
@@ -106,24 +64,6 @@ Iteration 3 & Conference Presentation & Week 7: Monday 12:00\\
 \vskip3mm
 
 \noindent All deliverables should have a title, version number, team id (capital letter), system name and names of the project members.
-%
-% \subsubsection{Project Mission v1}
-%
-% Acting as customer your team should prepare an initial version of a Project Mission for a development team. The Project Mission defines the system for which the employed project will elicit, prioritize, specify and validate requirements.
-%
-%  \begin{enumerate}[noitemsep]
-%  \item The Project Mission should fit on {\bf one A4 page}, be in .pdf format for easy printing and web publishing.
-%  \item The Project Mission should include a descriptive project name as well as the names of its authors.
-%
-%
-% \item You should fulfill the following criteria regarding the system you propose:
-% \begin{enumerate}[noitemsep,nolistsep]
-% \item You have a deep understanding of the application domain
-% \item You have a genuine interest in the system
-% \item You are be able to assess the value of detailed requirements
-% \end{enumerate}
-% \item In the Project Mission you should take on the role of Key Customer. Your team then acts as one of many potential customer on an assumed market for the envisioned product. The development team owns the product and decides on priorities and product content, while your team gives input and provides feedback. which one of the following customer roles that you would like to play:
-% \end{enumerate}
 
 \subsection{Project Mission v2}
 Your team should prepare a second version of the Project Mission where the scope of the project is further defined after dialog with your product owner (startup company) and supervisor. The purpose of this version is to act as an agreement that specifies what your team intends to develop, and what the product owner can expect.
@@ -274,5 +214,3 @@ Your team should prepare a second version of the Project Mission where the scope
 \end{tabular}
 \end{adjustbox}
 \end{sidewaystable}
-
-\end{document}
