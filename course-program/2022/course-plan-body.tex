@@ -11,8 +11,10 @@ For a passing grade the student must
 \item be able to describe and value several different methods and techniques for requirements engineering
 \item be able to describe and relate different sub-processes within requirements engineering
 \item be able to describe the relation between the requirements engineering process and other processes in the product lifecycle
-\item be able to describe the relation between requirements engineering and market-driven product management
-\item be able to discuss some scientific results within requirements engineering research
+\ifteknolog
+	\item be able to describe the relation between requirements engineering and market-driven product management
+	\item be able to discuss some scientific results within requirements engineering research
+\fi
 \end{enumerate}
 
 
@@ -25,7 +27,9 @@ For a passing grade the student must
 \item     be able to apply several different techniques for requirements validation
 \item     be able to apply several different techniques for requirements prioritisation
 \end{enumerate}
+\ifteknolog
   The release plan defines which requirements that are implemented by the project group as mock-up designs in release R3, and which requirements are selected to be fully implemented in the imagined releases R4 and R5. 
+ \fi
 \subsection{Judgement and approach}
 For a passing grade the student must
 \begin{enumerate}[noitemsep]
@@ -33,7 +37,9 @@ For a passing grade the student must
 \item     show a systematic and long-term approach to processes
 \item     be able to consciously see the problem in the relation between the quality of requirements and the quality of the resulting implementation
 \item     be able to adequately involve users in the requirements engineering process
-\item     be able to consciously see the problem in the relation between requirements engineering and economical aspects of product development
+\ifteknolog
+	\item     be able to consciously see the problem in the relation between requirements engineering and economical aspects of product development
+\fi
 \end{enumerate}
 
 \section{Contents}
@@ -55,7 +61,9 @@ The course includes theory and practice regarding the following topics:
 
 \item Different techniques for requirements prioritization
 
-\item Market-driven requirements engineering and product management
+\ifteknolog
+	\item Market-driven requirements engineering and product management
+\fi
 \end{enumerate}
 
 \newpage
@@ -66,7 +74,12 @@ The course includes theory and practice regarding the following topics:
 \item[E: Exercises] The main objective of the exercises is to support the project and prepare for the written exam through prototypical problems, by connecting theory to practice and to give opportunity to discuss details of RE techniques.
 \item[LAB: Computer lab sessions] The lab sessions illustrate computer supported
 prioritization and release planning, and demonstrates the complexity of requirements selection and scheduling. Preparations are mandatory. 
-\item[P: Project] The project is carried out in groups of 6-8 students. The project involves a number of deliverables and a final project conference where the learning outcome of each project is presented. Project groups are established during the first course week. Project assignments are established during the second course week.
+\ifteknolog
+	\item[P: Project] The project involves performing practical requirements engineering for a given case, and is carried out in groups of 6-8 students. The project involves a number of deliverables and a final project conference where the learning outcome of each project is presented. Project groups are established during the first course week.
+\else
+	\item[P: Project] The project involves performing practical requirements engineering for a given case, and in performed individually. The project involves a number of deliverables.
+\fi
+
 \end{description}
 
 
@@ -100,14 +113,20 @@ The course elements and the written exam will cover the following literature:
 \begin{tabular}{p{0.15\columnwidth} p{0.85\columnwidth}}
 Lau & Soren Lauesen, Software Requirements - Styles and Techniques, Addison-Wesley, ISBN 0-201-74570-4, 2002. \\
 LAB1\&2	&Preparations and instructions for Lab 1: ''Requirements Modeling'' and Lab 2: ''Requirements Prioritization and Release Planning'' \\
-MDRE &	''Market-Driven Requirements Engineering for Software Products'', Björn Regnell and Sjaak Brinkkemper, Engineering and Managing Software Requirements, Eds. A. Aurum and C. Wohlin, Springer,  ISBN 3-540-25043-3, 2005 \\
+\ifteknolog
+	MDRE &	''Market-Driven Requirements Engineering for Software Products'', Björn Regnell and Sjaak Brinkkemper, Engineering and Managing Software Requirements, Eds. A. Aurum and C. Wohlin, Springer,  ISBN 3-540-25043-3, 2005 \\
+\fi
 PRIO&	''Requirements Prioritization'', Patrik Berander and Anneliese Andrews, Engineering and Managing Software Requirements, Eds. A. Aurum and C. Wohlin, Springer,  ISBN 3-540-25043-3, 2005 \\
-OSSRE & ''Understanding Requirements for Open Source Software'', Walt Scacchi, Design Requirements Engineering: A Ten-Year Perspective, Springer, pp. 467-494, 2009\\
+\ifteknolog
+	OSSRE & ''Understanding Requirements for Open Source Software'', Walt Scacchi, Design Requirements Engineering: A Ten-Year Perspective, Springer, pp. 467-494, 2009\\
  RP&	''The Art and Science of Software Release Planning'', Günther Ruhe and Moshood Omolade Saliu, IEEE Software, November/December, pp. 47-53, 2005  \\
+\fi
 QUPER&	Supporting Roadmapping of Quality Requirements - B Regnell, Richard Berntsson Svensson, 
 Thomas Olsson, IEEE Software 25(2) pp 42-47 March-April 2008  \\
 INSP&	''Att inspektera krav''. Sid 67-76, Framgångsrik kravhantering, andra utgåvan, Teknikföretagen, Joachim Karlsson, V040072, ISSN 1103-7008, 1998\\
- INTDEP &	''An industrial survey of requirements interdependencies in software product release planning'', Carlshamre, P., Sandahl, K., Lindvall, M., Regnell, B., Natt och Dag, J.: Int. Conf. on Requirements Engineering (RE01), Toronto, Canada, pp. 84–91, 2001 \\
+\ifteknolog
+	 INTDEP &	''An industrial survey of requirements interdependencies in software product release planning'', Carlshamre, P., Sandahl, K., Lindvall, M., Regnell, B., Natt och Dag, J.: Int. Conf. on Requirements Engineering (RE01), Toronto, Canada, pp. 84–91, 2001 \\
+\fi
 AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao, Balasubramaniam Ramesh, IEEE Software , January/February 2008, pp.60-67, 2008 \\
 ATCR & ''A multi-case study of agile requirements engineering and the use of test cases as requirements.'', Bjarnason, E., et al., Information and Software Technology 77, 2016, pp. 61-79, 2016 \\
 \end{tabular}
@@ -124,7 +143,7 @@ ATCR & ''A multi-case study of agile requirements engineering and the use of tes
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W1}} 
 & L1 & Introduction BR & Lau:1 & Tue 15-17\\
-& L2 & Meet your Product Owner, Elicit, Prio BR & Lau:8, PRIO  & Wed 13-15\\
+& L2 & \ifteknolog \else Meet your Product Owner, \fi Elicit, Prio BR & Lau:8, PRIO  & Wed 13-15\\
 & E1 & Requirements types, Context diagram &  Lau:1  & Thu 10-12 or 13-15\\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W2}} 
@@ -133,7 +152,7 @@ ATCR & ''A multi-case study of agile requirements engineering and the use of tes
 & P  & Project Mission: hand-in&  & Tue 23.59 \\
 & E2 & Elicitation  & Lau: 8  & Thu 10-12 or 13-15\\
 & Lab1 & Reqts Modelling, Prio & LAB1 &   We 15-17, Fr 10-12 or 15-17\\
-& P & Meeting with supervisor & & \\
+& P & Supervision meeting & & \\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W3}} 
 
@@ -143,7 +162,7 @@ ATCR & ''A multi-case study of agile requirements engineering and the use of tes
 & P & Release R1: hand-in& & Deadline Sun 23.59 \\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W4}} 
-& P & Meeting with supervisor & & \\
+& P & Supervision meeting & & \\
 & L7 & Specification 3, Quality, Lifecycle & Lau:5-7, QUPER  & Tu 15-17\\
 & E4 & Quality requirements &  Lau:6, QUPER  &Thu 10-12 or 13-15\\
 & Lab2 & Prioritization, Release Planning & LAB2 &   We 15-17, Fr 10-12 or 15-17\\
@@ -156,12 +175,14 @@ Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
 & P & Validation Checklist: hand-in and to validation group & & Deadline Sun 23.59\\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W6}} 
-& P & Meeting with supervisor & & \\
+& P & Supervision meeting & & \\
 & P &  Validation Report: hand-in and to authoring group & & Deadline Thu 23.59  \\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily W7}} 
+\ifteknolog
 & P & Conference presentation (pdf): hand-in & & Deadline Wed 8:00  \\
 & L9 & Project conference &  & Wed 13:05-15\\
+\fi
 & P & Release R3: hand-in & & Deadline Sun 23:59\\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily  }} 
@@ -171,6 +192,8 @@ Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
 \hline
 \end{tabular} 
 \end{flushleft}
+
+\ifteknolog \else NOTE: Lecture L6 is optional and not included in the course material. \fi
 
 \section{Personnel}
 \begin{flushleft}
@@ -187,13 +210,12 @@ Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
 \end{flushleft}
 
 \section{Rooms}
-All parts of this course instance are held on-line using Zoom, Canvas and course web page.
 \begin{flushleft}
 \small
 \begin{tabular}{l | l } 
 {\it What} & {\it Where} \\
 \hline
-Lectures & For L2 and L7 in E:A \\
+Lectures & E:C, for all but L2 E:A \\
 Exercises & E:1124. For E5 in E:1145 \\
 LAB& E:Val\\
 Exam & MA 9A, 9B \\
