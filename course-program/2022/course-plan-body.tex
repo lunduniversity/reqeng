@@ -136,6 +136,17 @@ ATCR & ''A multi-case study of agile requirements engineering and the use of tes
 
 \section{Overview}
 
+%% IT IS NOT ALLOWED TO HACE CONDITIONALS INSIDE tabular
+%% so adding this newcommand, which is interpreted before the below tabular
+\ifteknolog
+\newcommand{\CONF}{
+& P & Conference presentation (pdf): hand-in & & Deadline Wed 8:00  \\
+& L9 & Project conference &  & Wed 13:05-15\\
+}
+\else
+\newcommand{\CONF}{}
+\fi
+
 \begin{flushleft}
 \small
 \begin{tabular}{c | p{0.5cm} p{4.4cm} p{2.2cm}  p{3.2cm}}
@@ -179,10 +190,7 @@ Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
 & P &  Validation Report: hand-in and to authoring group & & Deadline Thu 23.59  \\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily W7}} 
-\ifteknolog
-& P & Conference presentation (pdf): hand-in & & Deadline Wed 8:00  \\
-& L9 & Project conference &  & Wed 13:05-15\\
-\fi
+\CONF
 & P & Release R3: hand-in & & Deadline Sun 23:59\\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily  }} 
@@ -193,7 +201,9 @@ Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
 \end{tabular} 
 \end{flushleft}
 
-\ifteknolog \else NOTE: Lecture L6 is optional and not included in the course material. \fi
+\ifteknolog\else 
+NOTE: Lecture L6 is optional for TFRG55.
+\fi
 
 \section{Personnel}
 \begin{flushleft}
