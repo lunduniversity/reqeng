@@ -56,13 +56,13 @@ assignment as follows:
 %% IT IS NOT ALLOWED TO HAVE CONDITIONALS INSIDE tabular
 %% so adding this newcommand, which is interpreted before the below tabular
 \ifteknolog
-\newcommand{\ITERATION3}{
+\newcommand{\ITERATIONTHREE}{
  Iteration 3 & Conference Presentation & Week 7: Tuesday 12:00\\
       & Discussant Questions & Week 7: Tuesday 12:00\\
       & Release R3 & Week 7: Sunday 23:59\\
 }
 \else
-\newcommand{\CONF}{
+\newcommand{\ITERATIONTHREE}{
     Iteration 3 & Release R3 & Week 7: Sunday 23:59\\
 }
 \fi
@@ -76,7 +76,7 @@ Iteration 1 & Release R1 & Week 3: Sunday 23:59 \\
 Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
    & Validation Checklist & Week 5: Sunday 23:59\\
    & Validation Report & Week 6: Thursday 23:59\\
-\ITERATION3
+\ITERATIONTHREE
 & Course Evaluation & March 31st, Thursday 23:59  \\
 
 \end{tabular}
@@ -201,36 +201,45 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 \end{enumerate}
 
 \section{Project assessment}
-\begin{enumerate}[noitemsep]
+\begin{enumerate}%[noitemsep]
 \item The deliverables Project Mission and Conference Presentation is pass/fail only.
-\item The project grade of fail/3/4/5 is based on Release R3 and your Validation Report \& Checklist according to the criteria in the table on the next page:
+\item The project grade of fail/3/4/5 is based on Release R3 and your Validation Report \& Checklist according to the criteria in the table on the next page.
 
 %\item Approx. $\frac{1}{2}$ of the grade is based on the {\bf System Requirements} in R3.
 %\item Approx. $\frac{1}{3}$ of the grade is based on the {\bf Project Experiences} in R3.
 %\item Approx. $\frac{1}{6}$ of the grade is based on the customer {\bf Validation Report} of R2.
 \end{enumerate}
 
-\newpage
+%\newpage
 
 %% IT IS NOT ALLOWED TO HAVE CONDITIONALS INSIDE tabular
 %% so adding this newcommand, which is interpreted before the below tabular
 \ifteknolog
-\newcommand{\PRIO_GRAD3}{
+\newcommand{\PRIOGRADETHREE}{
     {\bf 4I)} create a release plan for a subset of prioritized features, while taking into account precedence constraints. \newline
-\fi
 }
 \else
-\newcommand{\PRIO_GRAD3}{}
+\newcommand{\PRIOGRADETHREE}{}
 \fi
 
 \ifteknolog
-\newcommand{\PRIO_GRAD5}{
+\newcommand{\PRIOGRADEFIVE}{
     {\bf 5F)} combine priorities from several stakeholders and use priorities and scheduling constraints to iteratively create a relevant release plan.\newline
+}
+\else
+\newcommand{\PRIOGRADEFIVE}{}
 \fi
 
-\begin{sidewaystable}
-\begin{adjustbox}{width=1.05\textwidth}
-\begin{tabular}{| p{2.3cm} |p{5.5cm} | p{5.0cm} | p{5.7cm} |}
+\ifteknolog
+~ \newpage ~
+\newpage
+\else
+\newpage
+\fi
+
+%\begin{sidewaystable}
+\begin{adjustbox}{width=1.0\textwidth}
+\begin{tabular}{| p{2.3cm} |p{6.2cm} | p{6.2cm} | p{6.2cm} |}
 \hline
 {\it Assessment area} & {\it Requirements for project grade {\bf 3}} \newline Demonstrate {\bf acceptable} ability to ... & {\it Also required for project grade {\bf 4}} \newline Demonstrate {\bf advanced} ability to ...& {\it Also required for project grade {\bf 5}} \newline Demonstrate {\bf excellent} ability to ... \\
 \hline
@@ -255,7 +264,7 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
     {\bf 3E)} reflect on elicitation experiences. &
 
     {\bf 4E)} reason about the need for further elicitation in relation to specification quality.&
-    {\bf 4F)} demonstrate good use of prototyping to elicit realistic user requirements.&   
+    {\bf 4F)} demonstrate good use of prototyping to elicit realistic user requirements.   
 
     {\bf 5C)} go beyond initial stakeholders and given frames, while challenging the domain boundaries and eliciting creative ideas and deep domain knowledge in real-world contexts.
 \\ \hline
@@ -277,14 +286,14 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 
     {\bf 3I)} use more than one prioritization technique in a relevant way. \newline
     {\bf 3J)} reflect on prioritization experiences. &
- \PRIO_GRAD3
-
+  \PRIOGRADETHREE
+&
 %    {\bf 5G)} Demonstrate excellent ability to integrate and reflect on several prioritization techniques that are applied iteratively to different types of requirements. \newline
 %    {\bf 5H)} Prioritization of quality requirements take different quality levels into account.  \newline
-\PRIO_GRAD5
+\PRIOGRADEFIVE
     {\bf 5G)} use prioritization to focus improvements of specification quality and elicitation efforts for a well-motivated subset of requirements.%, based on reflections on own experiences.
 \\ \hline
 
 \end{tabular}
 \end{adjustbox}
-\end{sidewaystable}
+%\end{sidewaystable}

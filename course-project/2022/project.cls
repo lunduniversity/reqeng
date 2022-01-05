@@ -6,8 +6,9 @@
 \ProvidesClass{project}[2015/08/14 Document class based on article]
 \LoadClass[10pt,a4paper]{article}
 
-%\special{papersize=297mm,210mm}
-\usepackage[landscape,twocolumn,margin={2cm,2cm}]{geometry}
+\special{papersize=297mm,210mm}
+\usepackage[landscape,twocolumn,margin={2cm,2cm}]
+{geometry}
 \setlength{\columnsep}{16mm}
 
 \usepackage[utf8]{inputenc}
