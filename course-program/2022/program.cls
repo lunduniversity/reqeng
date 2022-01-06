@@ -3,7 +3,7 @@
 %https://sv.sharelatex.com/blog/2011/03/27/how-to-write-a-latex-class-file-and-design-your-own-cv.html
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{plan}[2015/08/14 Document class based on article]
+\ProvidesClass{program}[2015/08/14 Document class based on article]
 \LoadClass[10pt,a4paper]{article}
 
 %\special{papersize=297mm,210mm}

@@ -105,6 +105,9 @@ Final: 5 & $ \geq 90$ & $\geq 83$ & $\geq 75$ \\
 
 \end{itemize}
 
+\ifteknolog\else
+\newpage
+\fi
 
 \section{Literature}
 The course elements and the written exam will cover the following literature: 
@@ -123,7 +126,8 @@ PRIO&	''Requirements Prioritization'', Patrik Berander and Anneliese Andrews, En
 \fi
 QUPER&	Supporting Roadmapping of Quality Requirements - B Regnell, Richard Berntsson Svensson, 
 Thomas Olsson, IEEE Software 25(2) pp 42-47 March-April 2008  \\
-PROTO& ''A Model of Software Prototyping based on a Systematic Map'', Bjarnason, E., Lang, F., Mjoberg, A.: International Symposium on Empirical Software Engineering and Measurement (ESEM), pp. 1-11. 2021 \\
+PROTO1& ''A Model of Software Prototyping based on a Systematic Map'', Bjarnason, E., Lang, F., Mjoberg, A., International Symposium on Empirical Software Engineering and Measurement (ESEM), pp. 1-11. 2021 \\
+PROTO2& ''Prototyping practices in software startups: Initial case study results'', Bjarnason, E., IEEE 29th International Requirements Engineering Conference Workshops (REW). 2021\\
 INSP&	''Att inspektera krav''. Sid 67-76, Framgångsrik kravhantering, andra utgåvan, Teknikföretagen, Joachim Karlsson, V040072, ISSN 1103-7008, 1998\\
 \ifteknolog
 	 INTDEP &	''An industrial survey of requirements interdependencies in software product release planning'', Carlshamre, P., Sandahl, K., Lindvall, M., Regnell, B., Natt och Dag, J.: Int. Conf. on Requirements Engineering (RE01), Toronto, Canada, pp. 84–91, 2001 \\
@@ -131,6 +135,10 @@ INSP&	''Att inspektera krav''. Sid 67-76, Framgångsrik kravhantering, andra utg
 AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao, Balasubramaniam Ramesh, IEEE Software , January/February 2008, pp.60-67, 2008 \\
 \end{tabular}
 \end{flushleft}
+
+\ifteknolog\else
+\noindent See what lecture L1-L8 is connected to which literature item on the next page.
+\fi
 
 \newpage
 
@@ -140,7 +148,7 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 %% so adding this newcommand, which is interpreted before the below tabular
 \ifteknolog
 \newcommand{\CONF}{
-& P & Conference presentation (pdf): hand-in & & Deadline Wed 8:00  \\
+& P & Conference presentation (pdf) & & Deadline Wed 8:00  \\
 & L9 & Project conference &  & Wed 13:05-15\\
 }
 \else
@@ -157,6 +165,12 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 }
 \fi
 
+\ifteknolog
+\newcommand{\LASTSUPERVISION}{book with supervisor on \newline Mon or Tue (or W6) }
+\else
+\newcommand{\LASTSUPERVISION}{Mon 13}
+\fi
+
 \begin{flushleft}
 \small
 \begin{tabular}{c | p{0.5cm} p{4.4cm} p{2.2cm}  p{3.2cm}}
@@ -170,17 +184,17 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \multirow{4}{*}{{\bfseries\sffamily W2}} 
 & L3 & Specification 1, reqT BR   & Lau: 2-4  & Tue 15-17\\
 & L4 & Specification 2 BR &  & Wed 13-15 \\
-& P  & Project Mission: hand-in&  & Tue 23.59 \\
+& P  & Project Mission&  & Tue 23.59 \\
 & E2 & Elicitation  & Lau: 8  & Thu 10-12 or 13-15\\
 & Lab1 & Reqts Modelling, Prio & LAB1 &   We 15-17, Fr 10-12 or 15-17\\
 & P & Supervision meeting & & \\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W3}} 
 
-& L5 & Prototyping EB, Rel plan BR, & RP & Tue 15-17 \\
+& L5 & Prototyping EB, Rel plan BR, & PROTO1\&2, RP & Tue 15-17 \\
 & L6 & Product mgmt, Market-driven + Open Source RE, Interdependencies Guest: Johan Linåker & MDRE, OSSRE, INTDEP & Wed 13-15 \\
 & E3 & Functional requirements  & Lau:2-4  & Thu 10-12 or 13-15\\
-& P & Release R1: hand-in& & Deadline Sun 23.59 \\
+& P & Release R1& & Deadline Sun 23.59 \\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W4}} 
 & P & Supervision meeting & & \\
@@ -190,18 +204,18 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W5}} 
 & L8 & Validation, Inspections, \newline  Agile RE EB& 
-Lau:9, INSP, AGRE, ATCR & Tue 15-17\\
+Lau:9, INSP, AGRE & Tue 15-17\\
 & E5 & Validation & Lau:9, INSP  & Thu 10-12 or 13-15\\
-& P & Release R2: hand-in and send to validation group & & Deadline Sun 23.59 \\
-& P & Validation Checklist: hand-in and to validation group & & Deadline Sun 23.59\\
+& P & Release R2, send also to validation group & & Deadline Sun 23.59 \\
+& P & Validation Checklist, send also to validation group & & Deadline Sun 23.59\\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W6}} 
-& P & Supervision meeting & & \\
-& P &  Validation Report: hand-in and to authoring group & & Deadline Thu 23.59  \\
+& P &  Validation Report, send also to authoring group & & Deadline Thu 23.59  \\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily W7}} 
+& P & Supervision meeting & & \LASTSUPERVISION \\
 \CONF
-& P & Release R3: hand-in & & Deadline Sun 23:59\\
+& P & Release R3 & & Deadline Sun 23:59\\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily  }} 
 & Exam & &All literature  & March 18, Fr 8-13\\
@@ -218,13 +232,12 @@ NOTE: Lecture L6 is optional for TFRG55.
 \section{Personnel}
 \begin{flushleft}
 	\setlength{\tabcolsep}{0pt}
-	\begin{tabular}{p{0.4\columnwidth} p{0.6\columnwidth}}
-		Bjorn.Regnell BR & Coordinator, Lectures, Exam \\
-		Elizabeth.Bjarnason EB & Coordinator, Lecture, Exercises, Exam \\
-		Johan.Linaker JL & Lecture \\
-		Sergio.Rico SR & Project and lab supervision \\
-		TBD & Project and lab supervision \\
-		Ulrika Templing & Course Secretary \\
+	\begin{tabular}{p{0.3\columnwidth} p{0.07\columnwidth} p{0.6\columnwidth}}
+		Bjorn.Regnell & BR & Coordinator, Lectures, Exam \\
+		Elizabeth.Bjarnason & EB & Coordinator, Lecture, Exercises, Exam \\
+		Johan.Linaker & JL & Guest Lecture \\
+		Sergio.Rico & SR & Project and lab supervision \\
+		Ulrika Templing & & Course Secretary \\
 		...all e-mails @cs.lth.se
 	\end{tabular}
 \end{flushleft}

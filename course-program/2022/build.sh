@@ -1,2 +1,2 @@
-pdflatex course-plan-ETSN15.tex
-pdflatex course-plan-TFRG55.tex
+pdflatex program-ETSN15.tex
+pdflatex program-TFRG55.tex
