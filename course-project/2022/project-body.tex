@@ -67,12 +67,22 @@ assignment as follows:
 }
 \fi
 
+\ifteknolog
+\newcommand{\PEERREVIEW}{}
+\else
+\newcommand{\PEERREVIEW}{
+    & Peer Review & Week 3: Sunday 23:59\\
+}
+\fi
+
+
 \section{Project deliverables}
 \begin{tabular}{l |l p{5cm}  l}
 {\it Phase} & {\it Deliverables} & {\it Deadline} \\
 \hline
 Planning & Project Mission v2& Week 2: Tuesday 23:59\\
 Iteration 1 & Release R1 & Week 3: Sunday 23:59 \\
+\PEERREVIEW
 Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
    & Validation Checklist & Week 5: Sunday 23:59\\
    & Validation Report & Week 6: Thursday 23:59\\
@@ -85,7 +95,7 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 \ifteknolog
    \noindent All deliverables should have a title, version number, team id (capital letter and number), system name and names of the project members.
 \else
-   \noindent All deliverables should have a title, version number, system name and name of submitter.
+   \noindent All deliverables should have a title, version number, system name and name of author.
 \fi
 
 \subsection{Project Mission v2}
