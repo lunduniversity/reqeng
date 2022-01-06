@@ -20,6 +20,9 @@ assignment as follows:
    \item  You will be assigned a project team and a project mission based on preferences
    and availability
 \end{enumerate}
+\else
+   \section{Assignment and project mission}
+   You will be assigned a project mission describing a case for which you are to perform requirements engineering, i.e. elicit, specify, prioritize, and validate requirements. The project will be performed as an individual assignment, but with group supervision and collaboration with other projects.
 \fi
 
 \ifteknolog
@@ -224,12 +227,27 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 
 %% IT IS NOT ALLOWED TO HAVE CONDITIONALS INSIDE tabular
 %% so adding this newcommand, which is interpreted before the below tabular
+   
 \ifteknolog
 \newcommand{\PRIOGRADETHREE}{
+    {\bf 3I)} use more than one prioritization technique in a relevant way. \newline
+    {\bf 3J)} reflect on prioritization experiences.
+}
+\else
+\newcommand{\PRIOGRADETHREE}{
+    {\bf 3I)} use one prioritization technique in a relevant way. \newline
+    {\bf 3J)} reflect on prioritization experiences.
+}
+\fi    
+
+\ifteknolog
+\newcommand{\PRIOGRADEFOUR}{
     {\bf 4I)} create a release plan for a subset of prioritized features, while taking into account precedence constraints. \newline
 }
 \else
-\newcommand{\PRIOGRADETHREE}{}
+\newcommand{\PRIOGRADEFOUR}{
+    {\bf 4I)} use more than one prioritization technique in a relevant way. \newline
+}
 \fi
 
 \ifteknolog
@@ -273,8 +291,9 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
     {\bf 3D)} apply more than one elicitation technique in a relevant way. \newline
     {\bf 3E)} reflect on elicitation experiences. &
 
-    {\bf 4E)} reason about the need for further elicitation in relation to specification quality.&
-    {\bf 4F)} demonstrate good use of prototyping to elicit realistic user requirements.   
+    {\bf 4E)} reason about the need for further elicitation in relation to specification quality. \newline
+     {\bf 4F)} demonstrate good use of prototyping to elicit realistic user requirements.&
+   
 
     {\bf 5C)} go beyond initial stakeholders and given frames, while challenging the domain boundaries and eliciting creative ideas and deep domain knowledge in real-world contexts.
 \\ \hline
@@ -293,15 +312,11 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 \\ \hline
 
 {\bf Prioritization}  &
-
-    {\bf 3I)} use more than one prioritization technique in a relevant way. \newline
-    {\bf 3J)} reflect on prioritization experiences. &
-  \PRIOGRADETHREE
+\PRIOGRADETHREE
+ &
+  \PRIOGRADEFOUR
 &
-%    {\bf 5G)} Demonstrate excellent ability to integrate and reflect on several prioritization techniques that are applied iteratively to different types of requirements. \newline
-%    {\bf 5H)} Prioritization of quality requirements take different quality levels into account.  \newline
-\PRIOGRADEFIVE
-    {\bf 5G)} use prioritization to focus improvements of specification quality and elicitation efforts for a well-motivated subset of requirements.%, based on reflections on own experiences.
+    {\bf 5G)} use prioritization to focus improvements of specification quality and elicitation efforts for a well-motivated subset of requirements.
 \\ \hline
 
 \end{tabular}
