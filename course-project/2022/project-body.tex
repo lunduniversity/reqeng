@@ -22,7 +22,7 @@ assignment as follows:
 \end{enumerate}
 \else
    \section{Assignment and project mission}
-   You will be assigned a project mission describing a case for which you are to perform requirements engineering, i.e. elicit, specify, prioritize, and validate requirements. The project will be performed as an individual assignment, but with group supervision and collaboration with other projects.
+   You will be assigned a project mission describing a case for which you are to perform requirements engineering, i.e. elicit, specify, prioritize, and validate requirements. The project will be performed as a group assignment.
 \fi
 
 \ifteknolog
@@ -48,11 +48,11 @@ assignment as follows:
 \section{General project rules}
 \begin{enumerate}[noitemsep]
 \item The project comprises 80 hours per person.
+\item The total effort should be evenly distributed among participants.
 \ifteknolog
-   \item The total effort should be evenly distributed among participants.
-   \item In weeks W2, W4, and W6 a meeting should be scheduled with the project supervisor, where the project team reports on status, challenges and plans.
+   \item In weeks W2, W4, and W7 a meeting should be scheduled with the project supervisor, where the project team reports on status, challenges and plans.
  \else
- \item In weeks W2, W4, and W6 a group supervision meeting is held, where you report on status, challenges and plans, and discuss these with the supervisor and with the other students.
+ \item In weeks W2, W4, and W7 a group supervision meeting is held, where the project team reports on status, challenges and plans.
  \fi
 \end{enumerate}
 
@@ -70,22 +70,12 @@ assignment as follows:
 }
 \fi
 
-\ifteknolog
-\newcommand{\PEERREVIEW}{}
-\else
-\newcommand{\PEERREVIEW}{
-    & Peer Review & Week 4: Wednesday 23:59\\
-}
-\fi
-
-
 \section{Project deliverables}
 \begin{tabular}{l |l p{5cm}  l}
 {\it Phase} & {\it Deliverables} & {\it Deadline} \\
 \hline
 Planning & Project Mission v2& Week 2: Tuesday 23:59\\
 Iteration 1 & Release R1 & Week 3: Sunday 23:59 \\
-\PEERREVIEW
 Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
    & Validation Checklist & Week 5: Sunday 23:59\\
    & Validation Report & Week 6: Thursday 23:59\\
@@ -98,14 +88,14 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
 \ifteknolog
    \noindent All deliverables should have a title, version number, team id (capital letter and number), system name and names of the project members.
 \else
-   \noindent All deliverables should have a title, version number, system name and name of author.
+   \noindent All deliverables should have a title, version number, system name and names of the project members.
 \fi
 
 \subsection{Project Mission v2}
 \ifteknolog
    Your team should prepare a second version of the Project Mission where the scope of the project is further defined after dialog with your product owner (startup company). The purpose of this version is to act as an agreement that specifies what your team intends to develop, and what the product owner can expect.
 \else
-   You should prepare a second version of the Project Mission where your initial understanding of the scope of the project is described. 
+   Your team should prepare a second version of the Project Mission where your initial understanding of the scope of the project is described. 
 \fi
 
  \begin{enumerate}
@@ -116,9 +106,10 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
     \item Main goals and system context, including a context diagram
     \item Participants and potential stakeholders
     \item Description of planned activities and deliverables with deadlines
+    \item Diagram showing, per participant, the planned activities and time spent per week
+    
     \ifteknolog
-       \item Diagram showing, per participant, the planned activities and time spent per week
-      \item Responsibilities of project members
+    \item Responsibilities of project members
     \fi
   \end{enumerate}
   \item With the above content it is useful if the following questions can be answered:
@@ -129,10 +120,8 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
     \fi
    \item What should be done in the project?
    \item When should the results be delivered?
-   \ifteknolog
-      \item Who is responsible for what?
-      \item When shall who work with what?
-    \fi
+   \item Who is responsible for what?
+   \item When shall who work with what?
  \end{enumerate}
 \end{enumerate}
 
@@ -154,7 +143,6 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
     \item The second version of the system requirements (R2) should include a first version of the release plan.
     \item The last release R3 should include final versions of: System Requirements, Project Experiences, Validation Report \& Checklist (final version by R2 and included in R3), and Conference Presentation. Course Evaluation is delivered post course.
 \else
-    \item Togeteher with the first release R1 you should also hand-in peer review comments on another student's R1 according to a checklist, as assigned by your supervisor. 
     \item The last release R3 should include final versions of: System Requirements, Project Experiences, Validation Report \& Checklist (final version by R2 and included in R3). Course Evaluation is delivered post course.
 \fi
 
@@ -180,17 +168,20 @@ Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
       \item Reflection on the usage of these methods/techniques in terms of what was successful and what was challenging. Example questions for reflection: What have you learned in relation to the learning objectives in this course program? What would you have done differently based on what you know now?  What have you learned in relation to the learning objectives?
    \ifteknolog
       \item Reflection on the communication and interaction with the product owners and within the project team through the different steps of the Requirements Engineering process.
-      \item A personal statement by each team member that briefly explains each individual's contributions to the project results.
+     \else
+      \item Reflection on the communication and interaction within the project team through the different steps of the Requirements Engineering process.
    \fi
-      \item The Project Experiences should {\it not} include course evaluation issues, but focus on your own work and learning outcome.
+   
+   \item A personal statement by each team member that briefly explains each individual's contributions to the project results.
+   \item The Project Experiences should {\it not} include course evaluation issues, but focus on your own work and learning outcome.
     \end{enumerate}
 
 \ifteknolog
     \item[Validation Report] To gain experience and input to your own project, you will validate another project team's release R2 and hand in your validation report together with your team's R3. Your team should produce relevant and useful issues for improvement. Each issue should be ranked for criticality.
     \item[Validation Checklist] To help another project team to validate your release R2, you will provide them with a requirements validation checklist tailored to the context.
 \else
-    \item[Validation Report] To gain experience and input to your own project, you will validate another project release R2 and hand in your validation report together with your R3. You should produce relevant and useful issues for improvement. Each issue should be ranked for criticality.
-    \item[Validation Checklist] To help another project to validate your release R2, you will provide them with a requirements validation checklist tailored to the context.
+    \item[Validation Report] To gain experience and input to your own project, you will perform an internal validation of your team's release R2 and hand in your validation report together with your team's R3. Your team should produce relevant and useful issues for improvement. Each issue should be ranked for criticality.
+    \item[Validation Checklist] You will provide a requirements validation checklist tailored to the context to guide your validation of your release R2.
 \fi
 
 \ifteknolog
