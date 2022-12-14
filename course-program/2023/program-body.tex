@@ -178,17 +178,17 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 
 \begin{flushleft}
 \small
-\begin{tabular}{c | p{0.5cm} p{4.4cm} p{2.2cm}  p{3.2cm}}
+\begin{tabular}{c | p{0.6cm} p{4.4cm} p{2.2cm}  p{3.1cm}}
  &  & {\it Topic} & {\it Literature} & {\it When}   \\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W1}} 
-& L1 & Introduction BR & Lau:1 & Tue 15-17\\
+& L1& Introduction  & Lau:1 & Tue 15-17\\
 \LTWOPROJECT
 & E1 & Requirements types, Context diagram &  Lau:1  & Thu 10-12 or 13-15\\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W2}} 
-& L3 & Specification 1, reqT BR   & Lau: 2-4  & Tue 15-17\\
-& L4 & Specification 2 BR &  & Wed 13-15 \\
+& L3& Specification 1, reqT    & Lau: 2-4  & Tue 15-17\\
+& L4& Specification 2  &  & Wed 13-15 \\
 & P  & Project Mission&  & Tue 23.59 \\
 & E2 & Elicitation  & Lau: 8  & Thu 10-12 or 13-15\\
 & Lab1 & Reqts Modelling, Prio & LAB1 &   We 15-17, Fr 10-12 or 15-17\\
@@ -196,8 +196,10 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W3}} 
 
-& L5 & Agile RE, Prototyping (EB),  \newline Guest from industry& AGRE, PROTO1\&2& Tue 15-17 \\
-& L6 & Product mgmt, Rel plan, Market-driven + Open Source RE, Interdependencies Guest: Johan Linåker & MDRE, RP, OSSRE, INTDEP & Wed 13-15 \\
+& L5~EB& Agile RE, \newline Prototyping,  
+\newline Validation & AGRE, PROTO1-2, Lau:9, INSP & Tue 15-17 \\
+
+& \STARTFRG{}L6~JL & Product mgmt, Release planning, Open source RE, Interdep. & MDRE, RP, \newline OSSRE, \newline INTDEP & Wed 13-15 \\
 & E3 & Functional requirements  & Lau:2-4  & Thu 10-12 or 13-15\\
 & P & Release R1& & Deadline Sun 23.59 \\
 \hline
@@ -210,11 +212,11 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \multirow{3}{*}{{\bfseries\sffamily W5}} 
 %& L8 & Validation, Inspections (EB)& Lau:9, INSP & Tue 15-17\\
 & E5 & Validation & Lau:9, INSP  & Thu 10-12 or 13-15\\
-& P & Release R2, send also to validation group & & Deadline Sun 23.59 \\
-& P & Validation Checklist, send also to validation group & & Deadline Sun 23.59\\
+& P & Release R2 \newline send also to validation group & & Deadline Sun 23.59 \\
+& P & Validation Checklist \newline send also to validation group & & Deadline Sun 23.59\\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W6}} 
-& P &  Validation Report, send also to authoring group & & Deadline Thu 23.59  \\
+& P &  Validation Report\newline send also to authoring group & & Deadline Thu 23.59  \\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily W7}} 
 & P & Supervision meeting & & \LASTSUPERVISION \\
@@ -230,7 +232,7 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \end{flushleft}
 
 \ifteknolog\else 
-NOTE: Lecture L6 is optional for TFRG55.
+\STARTFRG NOTE: Lecture L6 is optional for TFRG55.
 \fi
 
 \section{Personnel}
@@ -238,29 +240,35 @@ NOTE: Lecture L6 is optional for TFRG55.
 	\setlength{\tabcolsep}{0pt}
 	\begin{tabular}{p{0.3\columnwidth} p{0.07\columnwidth} p{0.6\columnwidth}}
 		Bjorn.Regnell & BR & Coordinator, Lectures, Exam \\
-		Elizabeth.Bjarnason & EB & Coordinator, Lecture, Exercises, Exam \\
-		Johan.Linaker & JL & Guest Lecture \\
-		Sergio.Rico & SR & Project and lab supervision \\
-		Ulrika Templing & & Course Secretary \\
-		...all e-mails @cs.lth.se
+		Elizabeth.Bjarnason & EB & Coordinator, Lecture L5, Exercises, Exam \\
+		Johan.Linaker & JL & Lecture L6\\
+		Sergio.Rico & SR & Project and lab \\
+		Ulrika.Templing & & Course admin \\
+		Birger.Swahn & & Course admin \\
+		...all e-mails @cs.lth.se\\
+		Linnea Allander & LA & Project and lab \\
+		li6687al-s@student.lu.se\\
 	\end{tabular}
 \end{flushleft}
 
 \section{Where is the teaching?}
-Due to the pandemic we may have to, with short notice, transfer to online teaching, so check TimeEdit and notifications in Canvas and before each teaching event.
+%Due to the pandemic we may have to, with short notice, transfer to online teaching, so check TimeEdit and notifications in Canvas and before each teaching event.
 
-\vspace{1em}
-\noindent Preliminar plan:
+% \vspace{1em}
+\noindent Preliminar room allocation -- double-check in TimeEdit for late changes:
 \begin{flushleft}
 \small
 \begin{tabular}{l | l } 
 {\it What} & {\it Where} \\
 \hline
-Lectures & E:C or E:A (see TimeEdit) + with Zoom option, but L2, L5 Zoom only. \\
-Exercises & E:1124 but E5 in E:1145. Zoom option for those with symptoms. \\
-LAB& E:Val. Extra slots given later in Zoom for those with symptoms.\\
-Exam & Preliminary plan: On site in MA 9A, 9B \\
+Lectures & E:C %or E:A (see TimeEdit) + with Zoom option, but L2, L5 Zoom only. 
+\\
+Exercises & E:1408 %but E5 in E:1145. Zoom option for those with symptoms. 
+\\
+LAB& E:Varg % Extra slots given later in Zoom for those with symptoms.
+\\
+Exam & MA10DE\\
 \end{tabular}
 \end{flushleft}
 
-Zoom-links for online teaching: see Canvas. 
+%Zoom-links for online teaching: see Canvas. 
