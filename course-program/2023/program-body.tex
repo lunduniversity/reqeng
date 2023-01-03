@@ -74,7 +74,7 @@ The course includes theory and practice regarding the following topics:
 \begin{description}
 \item[L: Lectures] The lectures provide an overview of the literature. They do not cover every detail, but give a high-level structure of the subject and thereby aid self-studies of the literature. Discussions are promoted.
 \item[E: Exercises] The main objective of the exercises is to support the project and prepare for the written exam through prototypical problems, by connecting theory to practice and to give opportunity to discuss details of RE techniques.
-\item[LAB: Computer lab sessions] The lab sessions illustrate computer supported
+\item[Lab: Computer lab sessions] The lab sessions illustrate computer supported
 prioritization and release planning, and demonstrates the complexity of requirements selection and scheduling. Preparations are mandatory. %
 \ifteknolog\else
 The release planning part is optional.
@@ -148,13 +148,13 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \newpage
 
 \section{Overview}
-
+%L = Lecture, E = Exercise, P = Project, Lab = Computer Lab
 %% IT IS NOT ALLOWED TO HAVE CONDITIONALS INSIDE tabular
 %% so adding this newcommand, which is interpreted before the below tabular
 \ifteknolog
 \newcommand{\CONF}{
 & P & Conference presentation (pdf) & & Deadline Wed 8:00  \\
-& L8 & Project conference &  & Wed 15:05-17\\
+& P & Project conference (mandatory) &  & Wed 15:05-17 in E:C\\
 }
 \else
 \newcommand{\CONF}{}
@@ -191,15 +191,15 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 & L4& Specification 2  &  & Wed 15-17 \\
 & P  & Project Mission&  & Tue 23.59 \\
 & E2 & Elicitation  & Lau: 8  & Thu 10-12 or 13-15\\
-& Lab1 & Reqts Modelling, Prio & LAB1 &   We 15-17, Fr 10-12 or 13-15\\
+& Lab1 & Reqts Modelling, Prio & LAB1 &   Wed 15 or Fr 10 or Fr 13\\
 & P & Supervision meeting & & \\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W3}} 
 
-& L5~EB& Agile RE, \newline Prototyping,  
-\newline Validation & AGRE, PROTO1-2, Lau:9, INSP & Tue 15-17 \\
+& L5 \newline video& Agile RE, \newline Prototyping,  
+ & AGRE, PROTO1-2, & Tue 15-17 \\
 
-& \STARTFRG{}L6~JL & Product mgmt, Release planning, Open source RE, Interdep. & MDRE, RP, \newline OSSRE, \newline INTDEP & Wed 15-17 \\
+& \STARTFRG{}L6\newline guest & Product mgmt, Release planning, Open source RE, Interdep. & MDRE, RP, \newline OSSRE, \newline INTDEP & Wed 15-17 \\
 & E3 & Functional requirements  & Lau:2-4  & Thu 10-12 or 13-15\\
 & P & Release R1& & Deadline Sun 23.59 \\
 \hline
@@ -207,16 +207,16 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 & P & Supervision meeting & & \\
 & L7 & Specification 3, Quality, Lifecycle & Lau:5-7, QUPER  & Tu 15-17\\
 & E4 & Quality requirements &  Lau:6, QUPER  &Thu 10-12 or 13-15\\
-& Lab2 & Prioritization, Release Planning & LAB2 &   We 15-17, Fr 10-12 or 13-15\\
+& Lab2 & Prioritization, Release Planning & LAB2 &   Wed 15 or Fr 10 or Fr 13\\
 \hline
-\multirow{3}{*}{{\bfseries\sffamily W5}} 
-%& L8 & Validation, Inspections (EB)& Lau:9, INSP & Tue 15-17\\
+\multirow{4}{*}{{\bfseries\sffamily W5}} 
+& L8 & Validation, discuss L5, exam prep&  Lau:9, INSP & Tue 15-17\\
 & E5 & Validation & Lau:9, INSP  & Thu 10-12 or 13-15\\
-& P & Release R2 \newline send also to validation group & & Deadline Sun 23.59 \\
-& P & Validation Checklist \newline send also to validation group & & Deadline Sun 23.59\\
+& P & Release R2 & & Deadline Sun 23.59 \\
+& P & Validation Checklist \newline \textit{send to validation group} & & Deadline Sun 23.59\\
 \hline
 \multirow{3}{*}{{\bfseries\sffamily W6}} 
-& P &  Validation Report\newline send also to authoring group & & Deadline Thu 23.59  \\
+& P &  Validation Report\newline \textit{send to authoring group} & & Deadline Thu 23.59  \\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily W7}} 
 & P & Supervision meeting & & \LASTSUPERVISION \\
@@ -240,7 +240,7 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 	\setlength{\tabcolsep}{0pt}
 	\begin{tabular}{p{0.3\columnwidth} p{0.07\columnwidth} p{0.6\columnwidth}}
 		Bjorn.Regnell & BR & Coordinator, Lectures, Exam \\
-		Elizabeth.Bjarnason & EB & Coordinator, Lecture L5, Exercises, Exam \\
+		Elizabeth.Bjarnason & EB & Coordinator, Lecture L8, Exercises, Exam \\
 		Johan.Linaker & JL & Lecture L6\\
 		Sergio.Rico & SR & Project and lab \\
 		Ulrika.Templing & & Course admin \\
@@ -261,11 +261,11 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \begin{tabular}{l | l } 
 {\it What} & {\it Where} \\
 \hline
-Lectures & E:C %with Zoom option, but L2, L5 Zoom only. 
+Lectures & E:C, except L5: pre-recorded video in Canvas  
 \\
-Exercises & E:3319 %Zoom option for those with symptoms. 
+Exercises & E:1407, E:3318, E:3336 %Zoom option for those with symptoms. 
 \\
-LAB& E:Varg % Extra slots given later in Zoom for those with symptoms.
+Labs & E:Varg % Extra slots given later in Zoom for those with symptoms.
 \\
 Exam & MA10DE\\
 \end{tabular}
