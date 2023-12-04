@@ -122,6 +122,19 @@ Den \Emph{komplexa} \textbf{kontexten} utvecklas \Alert{ständigt}: \\~
 \end{itemize}
 \end{Slide}
 
+{  \setbeamercolor{background canvas}{bg=black}
+\begin{Slide}{\small \Alert{Stakeholders in the Mobile Domain}}
+  \vspace*{0.2cm}\hspace*{-0.55cm}\includegraphics[width=1.1\textwidth]{img/stakeholders-mobile-domain.jpg}
+\end{Slide}
+}
+
+
+\begin{Slide}{Kontextdiagram}
+Ett kontextdiagram visar \Emph{inre} domänen med systemet som  ''ogenomskinlig box'':
+\begin{figure}
+\centering\includegraphics[width=0.95\textwidth]{img/context-diagram-cash-register}
+\end{figure}
+\end{Slide}
 
 \begin{Slide}{Vilka är våra intentioner?}
 Olika \Emph{sammanvävda} \textbf{förutsättningar} utvecklas \Alert{ständigt}: \\~
@@ -136,13 +149,41 @@ Olika \Emph{sammanvävda} \textbf{förutsättningar} utvecklas \Alert{ständigt}
 \begin{Slide}{Vilka produktkrav behövs?}
 Olika \Emph{sammanvävda} \textbf{kravmodeller} utvecklas \Alert{ständigt}: \\~
 \begin{itemize}
-\item Funktionalitet \hfill effekt
-\item Data  \hfill tillstånd
-\item Kvalitet \hfill nytta
-\item Testfall \hfill mätbara kriterier
+\item Funktionalitet
+\item []logik \hfill resultat, effekt
+\item []data  \hfill information, tillstånd
+\item Kvalitet \hfill bra egenskaper, nytta
+\item Verifieringskriterier \hfill testfall 
+\item [] \hfill mål, domän, produkt, design
 \end{itemize}
 \end{Slide}
 
+\begin{Slide}{Kravmodeller på olika nivå}
+\begin{itemize}
+\item Abstraktion \hfill mål, domän, produkt, design
+\item Detaljnivå \hfill omfattning och detaljrikedom
+\item Aggregering \hfill gruppering, relationer
+\item Formalisering:
+\item [] från helt informell till matematiskt formell
+\end{itemize}
+\vspace{1em} Kombinera olika typer av modeller på olika nivå på ett ändamålsenligt sätt.
+\end{Slide}
+
+\begin{Slide}{Vad är en ''bra'' kravmodell?}
+En kravmodell ska gärna vara...
+\begin{itemize}
+\item korrekt, otvetydig, fullständig, motsägelsefri, kortfattad, begriplig, verifierbar, realistisk, spårbar, förändringsbar, prioriterad, ... 
+\end{itemize}
+...men allt detta kan inte bli perfekt till rimlig kostnad! 
+\end{Slide}
+
+\begin{Slide}{Olika kravmodeller}
+  Exempel olika typer av kravmodeller:
+  \begin{itemize}
+    \item kontextdiagram, E/R-diagram, användningsfall, dataflödesdiagram, tillståndsdiagram, sekvensdiagram, ... 
+  \end{itemize}
+  Du får lära dig mer om kravmodellering i kravhanteringskursen \href{https://cs.lth.se/krav}{https://cs.lth.se/krav}
+\end{Slide}
 
 \begin{Slide}{När leverera resultat?}
 \Emph{Stegvisa} \textbf{resultat} levereras \Alert{kontinuerligt}: \\~
