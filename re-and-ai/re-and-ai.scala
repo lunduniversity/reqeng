@@ -16,7 +16,7 @@ def slides = document(s"Requirements Engineering (RE) and \\\\Artificial Intelli
   frame(s"Requirements Engineering $and Artificial Intelligence"):
     itemize:
       p(s"Long history of research and practice on RE and AI.\\pause")
-      p("Recent Large Language Models changes everything")
+      p("Recent Large Language Models changes almost everything...")
       itemize: 
         p("new opportunities") 
         p("new challenges \\pause")
