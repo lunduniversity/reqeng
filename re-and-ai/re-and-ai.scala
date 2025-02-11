@@ -48,23 +48,17 @@ def slides = document(s"Requirements Engineering (RE) and \\\\Artificial Intelli
 
   frame("Development without AI"):
     image("../img/sketch/no-AI-dev.jpg", width = 1.1)
-    p("Humans do RE to model intentions and develop products.")
+    p("Humans do RE to transform intentions into products.")
 
   frame("Development with AI support"):
     image("../img/sketch/AI-dev.jpg", width = 1.1)
-    p("Humans do RE with AI support to model intentions and develop products.")
+    p("Humans with AI support do RE to transform intentions into products.")
 
   frame("Development by AI"):
     image("../img/sketch/AI-as-dev.jpg", width = 1.1)
-    p("AI does RE to model intentions and develop products.")
+    p("AI does RE to transform intentions into products.")
     p("What is the role of the human developer?")
 
-
-  frame(""):
-    image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
-
-  frame(""):
-    image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
 
   frame(""):
     image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
