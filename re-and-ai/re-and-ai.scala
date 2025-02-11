@@ -46,10 +46,29 @@ def slides = document(s"Requirements Engineering (RE) and \\\\Artificial Intelli
       p("Requirements on **model application**: accuracy, relevance, explainability, probability of hallucination, ...")
       p("Requirements **imposed by regulation**: EU AI Act, GDPR, alignment to human values")
 
+  frame("Development without AI"):
+    image("../img/sketch/no-AI-dev.jpg", width = 1.1)
+    p("Humans do RE to model intentions and develop products.")
+
+  frame("Development with AI support"):
+    image("../img/sketch/AI-dev.jpg", width = 1.1)
+    p("Humans do RE with AI support to model intentions and develop products.")
+
+  frame("Development by AI"):
+    image("../img/sketch/AI-as-dev.jpg", width = 1.1)
+    p("AI does RE to model intentions and develop products.")
+    p("What is the role of the human developer?")
+
+
+  frame(""):
+    image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
+
+  frame(""):
+    image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
+
   frame(""):
     image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
     p("REFSQ 2024")
-
 
   frame(""):
     image("../img/generative-AI4RE-arxiv-2024.png", width = 0.85)
@@ -72,7 +91,6 @@ def slides = document(s"Requirements Engineering (RE) and \\\\Artificial Intelli
   frame(""):
     image("../img/systematic-RE4AI-IST-2023.png", width = 1.08)
     p("Information and Software Technology 2023")
-
 
   frame(""):
     image("../img/RE4ML-REJ-2024.png", width = 1.05)
