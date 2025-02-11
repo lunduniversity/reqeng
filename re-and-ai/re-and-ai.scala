@@ -59,6 +59,11 @@ def slides = document(s"Requirements Engineering (RE) and \\\\Artificial Intelli
     p("AI does RE to transform intentions into products.")
     p("What is the role of the human developer?")
 
+  frame("AI everywhere"):
+    image("../img/sketch/AI-everywhere.jpg", width = 1.1)
+    p("AI does AI training, drives compiler tool chains, and includes AI in products based on AI platforms.")
+
+
 
   frame(""):
     image("../img/tertiary-AI4RE-refsq-2024.png", width = 0.9)
