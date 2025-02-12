@@ -98,15 +98,20 @@ prioritization and release planning, and demonstrates the complexity of requirem
 \begin{itemize}
 \item The project is graded fail | 3 | 4 | 5 based on project deliverables.
 \item Approved lab session preparations and assignments are required for passing.
-\item The written exam comprises of  multiple-choice questions, short essays and a practical assignments; in total 100 points of which 50p is required for passing. %50 percent is required for each part for passing. The essay and practical assignment part yields max 100 points and determines the grade fail | 3 | 4 | 5.
-\item The final course grade on the scale fail | 3 | 4 | 5 is based on the written exam points and the project grade using the following mapping: 
+\item The written exam has two parts: 
+\begin{itemize}[nolistsep,noitemsep]
+  \item Part A: Multiple-choice questions where at least 75\% (preliminary limit) must be correct for passing, and 
+  \item Part B: Written assignments with a total of 100 points of which at least 50p (preliminary limit) is required for passing the exam. Part B is marked only if Part A is passed.
+
+\end{itemize}
+\item The final course grade on the scale fail | 3 | 4 | 5 is based on the written exam points from Part B and the project grade using the following mapping: 
 
 \vspace{1em}
 
 \begin{tabular}{r | c c c}
  & Project: 3 & Project: 4 & Project: 5 \\
 \hline
- & \multicolumn{3}{c}{Exam points}    \\
+ & \multicolumn{3}{c}{Exam points Part B}    \\
 Final: 3 & $ \geq 50$ & $\geq 50$ & $\geq 50$ \\
 Final: 4 & $ \geq 75$ & $\geq 67$ & $\geq 60$ \\
 Final: 5 & $ \geq 90$ & $\geq 83$ & $\geq 75$ \\
@@ -131,8 +136,7 @@ OSSRE & ''Understanding Requirements for Open Source Software'', Walt Scacchi, D
 RP&	''The Art and Science of Software Release Planning'', Günther Ruhe, Moshood Omolade Saliu, IEEE Software, November/December, pp. 47-53, 2005. \\
 QUPER&	''Supporting Roadmapping of Quality Requirements'', Björn Regnell, Richard Berntsson Svensson, 
 Thomas Olsson, IEEE Software 25(2) pp. 42-47 March-April 2008. \\
-PROTO1& ''An empirically based model of software prototyping: a mapping study and a multi-case study'', Elizabeth Bjarnason, Franz Lang, Alexander Mjöberg, Empirical Software Engineering, 28(5), 115, 2023.\\
-PROTO2& ''Prototyping practices in software startups: Initial case study results'', Elizabeth Bjarnason, IEEE 29th International Requirements Engineering Conference Workshops (REW), 2021.\\
+PROTO& ''An empirically based model of software prototyping: a mapping study and a multi-case study'', Elizabeth Bjarnason, Franz Lang, Alexander Mjöberg, Empirical Software Engineering, 28(5), 115, 2023.\\
 INSP&	''Att inspektera krav''. Sid 67-76, Framgångsrik kravhantering, andra utgåvan, Teknikföretagen, Joachim Karlsson, V040072, ISSN 1103-7008, 1998.\\
 INTDEP &	''An industrial survey of requirements interdependencies in software product release planning'', Pär Carlshamre, Kristian Sandahl, Mikael Lindvall, Björn Regnell, Johan Natt och Dag, Int. Conf. on Requirements Engineering (RE01), Toronto, Canada, pp. 84–91, 2001.\\
 AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao, Balasubramaniam Ramesh, IEEE Software , January/February 2008, pp. 60-67, 2008.\\
@@ -146,8 +150,9 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 %% IT IS NOT ALLOWED TO HAVE CONDITIONALS INSIDE tabular
 %% so adding this newcommand, which is interpreted before the below tabular
 \newcommand{\CONF}{
-& P & Conference presentation (pdf) & & Deadline Wed 8:00  \\
-& P & Project conference (mandatory) &  & Mon 15-17\\
+& P & Project presentation slides (pdf) & & Deadline Mon 08:00  \\
+& P & Disscussant questions (pdf) & & Deadline Mon 15:00  \\
+& P & Project presentation (mandatory) &  & Mon 15-17\\
 }
 
 \newcommand{\LASTSUPERVISION}{book with supervisor on \newline Mon or Tue (or W6) }
@@ -177,7 +182,7 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \multirow{4}{*}{{\bfseries\sffamily W3}} 
 
 & L5 \newline & Agile RE, \newline Prototyping,  
-& AGRE, PROTO1-2, & Mon 15-17 \\
+& AGRE, PROTO, & Mon 15-17 \\
 
 & L6\newline  & Product mgmt, Release planning, Open source RE, Interdep. & MDRE, RP, \newline OSSRE, \newline INTDEP & Tue 15-17 \\
 
@@ -188,11 +193,11 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 & L7 & Specification 3, Quality, Lifecycle & Lau:5-7, QUPER  & Mon 15-17\\
 & E4 & Quality requirements &  Lau:6, QUPER  &Wed 10-12\\
 & P & Supervision meeting & & Contact supervisor\\
-& Lab2 & Prioritization, Release Planning & LAB2 &  \LABHRS\\
 \hline
 \multirow{4}{*}{{\bfseries\sffamily W5}} 
 & L8 & Validation, exam prep&  Lau:9, INSP & Mon 15-17\\
 & E5 & Validation & Lau:9, INSP  & Wed 10-12\\
+& Lab2 & Prioritization, Release Planning & LAB2 &  \LABHRS\\
 & P & Release R2 & & Deadline Sun 23:59 \\
 & P & Validation Checklist \newline \textit{send to validation group} & & Deadline Sun 23:59\\
 \hline
@@ -205,9 +210,7 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 & P & Release R3 & & Deadline Sun 23:59\\
 \hline
 \multirow{1}{*}{{\bfseries\sffamily  }} 
-& Exam & &All literature  & March 15, 8:00-13:00\\
-\multirow{1}{*}{{\bfseries\sffamily Mar }}   
-&  P & \multirow{1}{*}{Course Evaluation -> BR, 1 per project} & & March 27, 23:59\\
+& Exam & &All literature  & March 20, 14:00-19:00\\
 \hline
 \end{tabular} 
 \end{flushleft}
@@ -217,11 +220,10 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \begin{flushleft}
 	\setlength{\tabcolsep}{0pt}
 	\begin{tabular}{p{0.3\columnwidth} p{0.09\columnwidth} p{0.6\columnwidth}}
-		Bjorn.Regnell & BR & Coordinator, Lectures \\
-		Elizabeth.Bjarnason & EB & Exercises, Exam \\
+		Bjorn.Regnell & BR & Coordinator, Lectures, Exam \\
+		Elizabeth.Bjarnason & EB & Exercises \\
 		Matthias.Wagner & MW & Project and Labs \\
 		Birger.Swahn & & Course admin \\
-		Ulrika.Templing & & Course admin \\
 		...all e-mails @cs.lth.se\\
 	\end{tabular}
 \end{flushleft}
@@ -238,7 +240,10 @@ AGRE &	''Agile Requirements Engineering Practices: An Empirical Study'', Lan Cao
 \hline
 Lectures & E:C  
 \\
-Exercises & M:Ångpannehallen %Zoom option for those with symptoms. 
+Exercises &  	
+M:Ångpannehallen (M:1328-29),  	
+M:L (M:3182-85),  	
+M:M (M:3178-81) %Zoom option for those with symptoms. 
 \\
 Labs & E:Ravel % Extra slots given later in Zoom for those with symptoms.
 \\
@@ -247,5 +252,12 @@ Exam & E:3308\\
 \end{flushleft}
 
 %Zoom-links for online teaching: see Canvas. 
+
+\section{On-line resources}
+For more information visit online resources here:
+\begin{itemize}[noitemsep]
+  \item Open homepage: \url{https://cs.lth.se/krav/}
+  \item Closed resources and hand-ins: \url{https://canvas.education.lu.se/}
+\end{itemize}
 
 \end{document}
