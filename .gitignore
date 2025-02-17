@@ -12,3 +12,8 @@
 **/old
 **/*.fdb_*
 **/*.fls
+**/.vscode
+**/.bsp
+**/.metals
+**/.scala-build
+
