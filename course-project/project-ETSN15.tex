@@ -1,0 +1,256 @@
+%!TEX encoding = UTF-8 Unicode
+
+\documentclass{project}
+
+\newcommand{\COURSECODE}{ETSN15}
+\newcommand{\COURSETITLE}{Requirements Engineering}
+
+\title{\bf\sffamily\fontsize{18}{18}\selectfont{
+Project~Description~\COURSECODE\\\COURSETITLE
+}}
+
+\author{\url{http://cs.lth.se/krav}}
+
+%\author{\bf\sffamily\fontsize{11}{11}\selectfont{Björn Regnell, Elizabeth Bjarnason, Johan Linåker}}
+
+\date{\sffamily\fontsize{10}{10}\selectfont{Revision date: \today}}
+\begin{document}
+
+\maketitle
+\vspace{-1cm}
+
+\section{Objectives}
+The main goals of the project from a course perspective are to:
+\begin{enumerate}[nolistsep]
+\item connect theory to practice,
+\item give concrete experiences of requirements engineering challenges,
+\item increase your motivation by group activities focused on realistic problems.
+\end{enumerate}
+
+\section{Assignment of project team and project mission}
+You should contribute to your project team formation and assignment accordingly:
+\begin{enumerate}[nolistsep]
+\item The project members of each team is finalized by Monday of the first course week. 
+\item You should bring your ideas on a candidate Project Mission for your team to the lecture on Tuesday of the first course week, in a domain that you have knowledge and interest in.
+\item You should participate in selecting and developing a draft of Project Mission v1 for your team before the exercise on Wednesday of the first course week.   
+\end{enumerate}
+
+\section{Context and roles}
+
+\noindent Each project team shall perform requirements engineering work based on a Project Mission. The project team develops system models with requirements of different types at appropriate levels, based on their interpretation of the Project Mission. Your team members act a primary stakeholder in addition to other (potential) external stakeholders. The actual scope of your project is negotiated with a teacher in the course.
+
+The project team consists of at least 4 and not more than 8 members, preferably 5--6 members. You should appoint the roles below among your team members (one person can have several roles, and some roles can be shared by two persons, depending on the number of team members):
+
+\begin{itemize}[noitemsep]
+\item \textbf{PM} Project, Process, Prioritization \& Release Manager (1 person)
+\item \textbf{SM} Stakeholder Manager (1 person)
+\item \textbf{TM} Tools, Documents, Experiences \& Version Manager (1-2 person)
+\item \textbf{EM} Elicitation \& Prototyping Manager (1-2 person)
+\item \textbf{QM} Quality Requirements Manager (1 person)
+\item \textbf{DM} Data Requirements Manager (1 person)
+\item \textbf{VM} Validation Manager (1 person)
+\end{itemize}
+
+\section{General project rules}
+\begin{enumerate}[nolistsep]
+\item The project comprises 80 hours per person.
+\item The total effort should be evenly distributed among participants.
+\item In weeks W2, W4, and W7 a meeting should be scheduled with the project supervisor, where the project team reports on status, challenges and plans. All project members should participate in meetings with the project supervisor.
+\item The manager roles imply management, planning, and coordination responsibilities, but managers should not do all the work: {\it all team members should contribute to all parts of the project work!}.
+\end{enumerate}
+
+
+\section{Project deliverables}\label{proj:deliver}
+\begin{tabular}{l |l p{5cm}  l}
+{\it Phase} & {\it Deliverables} & {\it Deadline} \\
+\hline
+Planning & Project Mission v1& Week 1: Wednesday 10:15\\
+         & Project Mission v2& Week 2: Tuesday 23:59\\
+Iteration 1 & Release R1 & Week 3: Sunday 23:59 \\
+Iteration 2 & Release R2  & Week 5: Sunday 23:59\\
+            & Validation Checklist & Week 5: Sunday 23:59\\
+            & Validation Report & Week 6: Thursday 23:59\\
+            Iteration 3 & Conference Presentation & Week 7: Monday 08:00\\
+            & Discussant Questions & Week 7: Wednesday 15:00\\
+            & Release R3 & Week 7: Sunday 23:59\\
+      
+\end{tabular}
+\vskip3mm
+
+\noindent All deliverables should have a title, version number, team id, product name, and names of all team members. 
+
+\subsection{Project Mission v1}
+
+You should consolidate your ideas on software-based products and select one of them and create a first sketch of an initial Project Mission v1 including at least:
+\begin{enumerate}[noitemsep]
+  \item A product name, different from all other product names in the course. 
+  \item A short, high-level product description of its background and purpose. 
+  \item A brief description of some different, important user roles.
+  \item A brief description of some external system with which your product interacts.
+\end{enumerate}
+Bring your PM v1 to the first exercise, where you will work on refining your product's scope and context, etc.
+
+\subsection{Project Mission v2}
+Your team should prepare a second version of the Project Mission where the scope of the project is further refined. The purpose of version 2 of the Project Mission is to act as an agreement that specifies what your team intends to develop.
+
+\begin{enumerate}
+  \item The Project Mission v2 is recommended to include the following information:
+  \begin{enumerate}[noitemsep,nolistsep]
+    \item Table of contents.
+    \item Product name, background, general purpose and main goals.
+    \item Product context diagram: user roles, external systems, interfaces, etc
+    \item Participants and potential external stakeholders.
+    \item Planned activities with start/stop dates for achieving each deliverable in Section \ref{proj:deliver}. Use a diagram or table to show the planned activities and estimated hours spent per week per participant.
+    \item Responsibilities of project members.
+  \end{enumerate}
+  \item Check that the following questions can be answered by PM v2:
+  \begin{enumerate}[noitemsep,nolistsep]
+  \item What is the project about?
+  \item Who is participating in the project as members and as input providers?
+  \item What should be done in the project?
+  \item When should the results be delivered?
+  \item Who is responsible for what?
+  \item When shall whom work with what?
+\end{enumerate}
+\end{enumerate}
+
+%\newpage
+\subsection{Work approach, releases and deliverables}
+
+You should work iteratively and divide your work into 3 main iterations, each ending with a release with all your accumulated work products. (You may have more sub-iterations with additional internal releases.) The releases (delivered for the course) are denoted R1, R2, and R3. You should follow these instructions and guidelines:
+
+  \begin{enumerate}[nolistsep]
+    \item For each release, the quality of your deliverables should represent a noticeable improvement/refinement.
+    \item Each release \verb+Rn+ of team \verb+X+ should be delivered in {\it one single, self-contained} {\bf zip-file} named \verb+X-Rn.zip+ with everything delivered.
+    \item There should be an {\bf overview description} of each release to make navigation and assessment easy, e.g. in a file called \verb+index.html+ or \verb+README.txt+ or similar.
+    \item Each release should be divided into two explicit parts: {\bf System Requirements} and {\bf Project Experiences}, each with its own {\bf table of contents}.
+    \item Release R2 should include a draft {\bf Release Plan} as part of the System Requirements (see \ref{it:rp} below). The Release Plan should be further refined in R3.
+    \item Release R3 should include final versions of all deliverables, including at least: System Requirements with Release Plan, Project Experiences, Validation Report, Validation Checklist, and Conference Presentation.
+
+  \begin{description}[noitemsep]
+    \item[System Requirements] include the following:
+    \begin{enumerate}[noitemsep]
+      \item {\it Different types} of system requirements, e.g. {\bf data}, {\bf function}, {\bf quality} at different levels, e.g. {\bf goal}, {\bf domain}, {\bf product}, {\bf design}.
+      \item {\it Several} specification techniques, e.g. {\bf context diagrams}, {\bf features}, {\bf virtual windows}, {\bf task descriptions}.
+      \item Each requirement should have a {\bf unique identity} (name or number).
+      \item A {\bf Release Plan} should be part of R2 \& R3, in which a subset of the requirements are prioritized and planned to be implemented in three imagined future product releases called R4, R5, R6.
+      \item \label{it:rp} {\it Design-level requirements} should be specified for the sub-set of requirements that are planned for a future imagined product release R4 (see \ref{it:rp}). This sub-set of requirements shall be implemented as mock-up designs in R3 using, e.g. {\bf screens and prototypes}, {\bf analog drawings}, {\bf clickable presentations}, {\bf executable GUI mockups} or similar.
+    \end{enumerate}
+
+    \item[Project Experiences] include the following:
+    \begin{enumerate}[noitemsep]
+      \item Description of your requirements engineering work, including experiences and reflections in relation to learning objectives.
+      \item Description of the chosen methods/techniques for elicitation, specification, validation, and prioritization.
+      \item Motivation for {\it why} you chose the used methods/techniques.
+      \item Reflection on the usage of these methods/techniques in terms of what was successful and what was challenging. Example questions for reflection: What have you learned in relation to the learning objectives in this course program? What would you have done differently based on what you know now?  What have you learned in relation to the learning objectives?
+      \item Reflection on the interaction among internal and (potential) external stakeholders through the different steps of the Requirements Engineering process.
+  
+  \item A personal statement by each team member that briefly explains each individual's contributions to the project results ({\it what}) and the total number of hours of project work per person ({\it how much}).
+  \item The Project Experiences should {\it not} include course evaluation issues, but focus on your own work and learning outcome.
+    \end{enumerate}
+
+    \item[Validation Report] To gain experience and input to your own project, you will validate another project team's release R2 and hand in your validation report together with your team's R3. Your team should produce relevant and useful issues for improvement. Each issue should be ranked for criticality.
+    \item[Validation Checklist] To help another project team to validate your release R2, you will provide them with a requirements validation checklist tailored to the context.
+
+    \item[Conference Presentation]
+    Prepare and rehearse a short presentation.
+    \begin{enumerate}[noitemsep]
+      \item The total presentation time and further guidelines are given during the course.
+      \item Spend approx. 10\% of the presentation time on the project's mission.
+      \item Spend approx. 45\% of the time on project results and techniques used.
+      \item Spend approx. 45\% of the time on experiences and learning outcome.
+      \item Slides should be in \{.ppt|.pptx|.pdf\}.
+    \end{enumerate}
+    
+  \item[Discussant Questions] Prepare questions and act as discussants at the project conference for the project that you previously validated. 
+    \begin{enumerate}[noitemsep]
+        \item The total discussant time and further guideliens are given during the course.
+        \item Prepare questions on, for example, choice of RE techniques, experienced RE challenges and solutions during the project.
+      \end{enumerate}
+          \item[Course Evaluation] (Not part of the assessment, optional.) A separate, free-form Course Evaluation document can be handed in by the team. If team members have different views, it is valuable if these differences are reflected. For each relevant course element (lectures, exercises, labs, project etc) answer questions such as: What worked well?  If something needs improvement, {\it why} and {\it how} would you like it to be changed? Send the Course Evaluation to \url{bjorn.regnell@cs.lth.se}
+
+
+  \end{description}
+\end{enumerate}
+
+\newpage
+
+\section{Project assessment}
+\begin{enumerate}
+\item The deliverables Project Mission and Conference Presentation is pass/fail only.
+\item The project grade of fail/3/4/5 is based on Release 3 including Validation Report and Validation Checklist according to the criteria in the table on the {\bf next page}.
+
+\end{enumerate}
+
+%\newpage
+
+%\begin{sidewaystable}
+
+~ \newpage
+
+{\noindent\fontsize{14}{26}\textbf{Project Grading Grid}\selectfont}
+
+\begin{adjustbox}{width=0.95\textwidth}
+\begin{tabular}{| p{2.3cm} |p{6.2cm} | p{6.2cm} | p{6.2cm} |}
+\hline
+{\it Assessment area} & {\it Required for project grade {\bf 3: Accepable}} \newline Demonstrate ability to ... & {\it Also required for project grade {\bf 4: Good}} \newline Demonstrate ability to ...& {\it Also required for project grade {\bf 5: Excellent}} \newline Demonstrate ability to ... \\
+\hline
+\hline
+{\bf Specification} &
+%3
+    {\bf 3A)} apply more than one suitable specification technique (e.g. task descriptions and screen prototypes), and more than two types of requirement (e.g. data, function, quality), and more than three abstraction levels (e.g. goal, domain, product, design). \newline
+    {\bf 3B)} define a system's boundaries and its interaction with external entities. \newline
+    {\bf 3C)} reflect on specification experiences and reason about choices of specification methods in relation to different contexts. &
+%4
+    {\bf 4A)} combine different degrees of completeness and different levels of abstraction. \newline
+    {\bf 4B)} use at least four different specification techniques adequately tailored to the context. \newline
+    {\bf 4C)} provide explicit requirements rationale that reduce risks of misinterpretation. \newline
+    {\bf 4D)} use hierarchies and requirements relations to manage evolving requirements structures. &
+%5
+    {\bf 5A)} combine specification techniques in an explicitly motivated trade-off between qualities and costs, where a high degree of specification completeness is achieved for a carefully selected subset of requirements.     \newline
+    {\bf 5B)} provide motivated estimations of target quality levels using well-defined scales.
+\\ \hline
+
+{\bf Elicitation}  &
+    {\bf 3D)} apply more than one elicitation technique in a relevant way. \newline
+    {\bf 3E)} reflect on elicitation experiences. \newline 
+    {\bf 3F)} perform stakeholder analysis. 
+    &
+
+    {\bf 4E)} reason about the need for further elicitation in relation to specification quality. \newline
+    {\bf 4F)} demonstrate good use of prototyping to elicit realistic user requirements. \newline
+    {\bf 4G)} interaction with at least one external stakeholder.
+    &
+    
+
+    {\bf 5C)} elicit creative ideas and deep domain knowledge in realistic contexts, while interacting with several types of real-world stakeholders. 
+\\ \hline
+
+{\bf Validation}  &
+
+    {\bf 3G)} assess the quality of requirements and find relevant  problems of several different types. \newline
+    {\bf 3H)} apply more than one validation technique including prototyping. \newline
+    {\bf 3I)} reflect on validation experiences.&
+
+    {\bf 4H)} find, prioritize and discuss requirements quality problems of different types, while reaching beyond form issues. \newline
+    {\bf 4I)} adapt the validation to the context and provide rationale for the chosen validation techniques. &
+
+    {\bf 5D)} reason about the relation between requirements quality problems and risks from different stakeholder's viewpoint. \newline
+    {\bf 5E)} utilize links among different types of specifications in validation efforts to find and address potentially harmful inconsistencies. \newline
+\\ \hline
+
+{\bf Selection}  &
+  {\bf 3J)} use more than one prioritization technique in a relevant way. \newline
+  {\bf 3K)} reflect on prioritization experiences.
+&
+  {\bf 4J)} create a release plan for a subset of prioritized features, while taking into account precedence constraints. \newline
+&
+  {\bf 5F)} combine priorities from several stakeholders and use priorities and scheduling constraints to iteratively create a relevant release plan.\newline
+  {\bf 5G)} use prioritization to focus improvements of specification quality and elicitation efforts for a well-motivated subset of requirements.
+\\ \hline
+
+\end{tabular}
+\end{adjustbox}
+%\end{sidewaystable}
+
+\end{document}
